@@ -36,5 +36,31 @@ body {
 .quiz_image {
     display: flex;
     justify-content: center;
+}
 
+.button_area {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin: 7px auto;
+    max-width: 300px;
+    padding: 1rem;
+}
+
+.start_btn{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin: 12px auto;
+    max-width: 115px;
+   
+}
+
+.button_style {
+    background: grey;
+    color: whitesmoke;
+    text-decoration: none;
+    padding: 30px;
 }
