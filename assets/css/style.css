@@ -1,0 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&family=Titillium+Web:wght@300&display=swap');
+
+body {
+    font-family: Oswald, sans-serif;
+}
+
+.title {
+    text-decoration: none;
+    color: whitesmoke;
+    font-family: Roboto, Titillium Web ;
+    font-size: 2.5rem;
+}
