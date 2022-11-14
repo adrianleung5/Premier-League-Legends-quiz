@@ -10,3 +10,31 @@ body {
     font-family: Roboto, Titillium Web ;
     font-size: 2.5rem;
 }
+
+#logo{
+    display: flex;
+    justify-content: center;
+    font-size: 125%;
+}
+
+.homepage_content_title {
+    display: flex;
+    justify-content: center;
+    color:whitesmoke;
+    text-align: center;
+    font-size: 1.8rem;
+}
+
+.homepage_paragraph {
+    display: flex;
+    justify-content: center;
+    color:whitesmoke;
+    text-align: center;
+    font-size: 1.8rem;
+}
+
+.quiz_image {
+    display: flex;
+    justify-content: center;
+
+}
