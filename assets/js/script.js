@@ -8,3 +8,14 @@ const optionA = document.getElementById("")
 instructions_button.addEventListener("click", showModal) ;
 closeIcon.addEventListener("click", closeModal);
 getStartedButton.addEventListener("click", redirect) 
+
+// homepage functions
+function showModal() {
+    modalBox.style.display="block";
+}
+function closeModal () {
+modalBox.style.display= "none";
+}
+function redirect () {
+    return window.location.assign("./quiz.html")
+}
