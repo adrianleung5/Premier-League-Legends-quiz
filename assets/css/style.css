@@ -138,3 +138,32 @@ body {
     text-align: center;
 
 }
+
+/* Sign up  */
+#sign_up {
+    width: 100%;
+    position: relative;
+    bottom: 190px;
+
+
+}
+
+.sign-up-style {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 200px;
+}
+
+.sign-up-title {
+    color: whitesmoke;
+    font-size: 2rem;
+    margin-bottom: 1rem;
+    text-align: center;
+}
+
+.signup-label {
+    color: whitesmoke;
+    padding-bottom: 10px;
+
+}
