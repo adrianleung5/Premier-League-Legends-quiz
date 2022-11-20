@@ -9,7 +9,7 @@
 
     <link rel="stylesheet" href="assets/css/style.css">
 
-    <title> Premier league Legends Quiz </title>
+    <title> Premier league Quiz </title>
 
     </head>
 
@@ -21,7 +21,7 @@
                     <h1> <a href="index.html" class= "title"> Premier League Quiz </a> </h1>
                 </div>
                 <div class="quiz_image">
-                    <img src="assets/images/prem_logo1.jpg" alt="logo">
+                    <img src="assets/images/prem_logob.jpg" alt="logo">
                 </div>
             </header>
     
@@ -36,30 +36,33 @@
                  <!-- Buttons -->
                  
                  <div class="button_area">
-                    <a href= "login.html" class="button_style"> Instructions </a>
-                    <a href = "#" class="button_style"> button 2 </a>
+                    <button class="button" id="instruction_btn"> Instructions </button>
+                    <button class="button" id="lets_start_button"> Lets get started <i class="fa fa-futbol-o fa-beat-fade"
+                            style="background-color:cornsilk; color: #3d185b"></i> </button>
+        
                 </div>
+        
+          <!-- Modal Instructions -->
+          <div id="instructions_box" class="modal-box">
+              <div class="modal-content">
+                  <p class="close-modal">
+                      <i class="fa fa-close"> </i>
+                  </p>
+                  <h3 class="modal-title"> Premier league Quiz Instructions</h3>
+                  <div class="instructions">
+                      <ul class="instructions-list">
+                          <li>Create a username</li>
+                          <li>8 questions with 4 options of answers</li>
+                          <li>Only 1 correct answer per question</li>
+                          <li> You will have 60 seconds to answer</li>
+                          <li>Have fun!</li>
+                          </ol>
+                  </div>
+              </div>
+          </div>
+          </section>
 
-                <div class="start_btn">
-                    <a href = "#" class="button_style"> button 3 </a>
-                </div>
-
-                <!-- Modal Box -->
-
-                <div id="instructions_box" class="modal_box">
-                    <ol class="Instructions_list">
-                        <h2> Instructions </h2>
-                        <li>Create a username</li>
-                        <li>8 questions with 4 options of answers</li>
-                        <li>Only 1 correct answer per question</li>
-                        <li> You will have 60 seconds to answer</li>
-                        <li>Have fun!</li>
-                    </ol>
-                        
-                </div>
-                <script src="assets/js/script.js"></script>
-
-        </body>
+          </body>
 
 
 
