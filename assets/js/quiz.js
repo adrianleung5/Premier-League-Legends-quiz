@@ -120,3 +120,5 @@ function getQuizQuestions () {
     optionB.innerHTML =  "<p class = 'option' id ='B'>" + questions.optionB + "</p>" ;
     optionC.innerHTML = "<p class = 'option' id = 'C'>" + questions.optionC + "</p>" ;
     optionD.innerHTML = "<p class = 'option' id = 'D'>" + questions.optionD + "</p>" ;
+
+  
