@@ -242,3 +242,26 @@ body {
     text-align: center;
     align-items: center;
 }
+
+/* Quiz */
+#welcome {
+    color: whitesmoke;
+    text-align: center;
+    font-size: 1.8rem;
+    
+}
+
+#question {
+    color: whitesmoke;
+    text-align: center;
+    font-size: 1.5rem;
+
+}
+
+#answer {
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
