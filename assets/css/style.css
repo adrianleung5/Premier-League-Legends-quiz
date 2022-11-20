@@ -190,3 +190,55 @@ body {
     border: 3px solid whitesmoke;
     border-radius: 0.4rem;
 }
+
+/* Username input  */
+
+.username-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    color: whitesmoke;
+    padding: 1rem;
+    border: 3px solid whitesmoke;
+    border: radius;
+    border-radius: 1rem;
+    width: 75%;
+    margin: 15% auto;
+
+}
+
+#username {
+    display: block;
+    width: 100%;
+    position: relative;
+    bottom: 75px;
+}
+
+.username-container {
+    margin: 7rem;
+
+}
+
+.username-text-input {
+    color: whitesmoke;
+    width: 100%;
+    border-radius: 1.5rem;
+    border: 3px solid whitesmoke;
+    padding: 0.4rem;
+    line-height: 2rem;
+    margin-bottom: 2rem;
+}
+
+.start-quiz-button {
+    border: 3px solid whitesmoke;
+    border-radius: 2rem;
+    width: 100%;
+    background-color: whitesmoke;
+    text-transform: uppercase;
+    font-size: 1.3rem;
+    padding: 0.5rem 1rem;
+    margin: 0rem auto 1rem;
+    text-align: center;
+    align-items: center;
+}
