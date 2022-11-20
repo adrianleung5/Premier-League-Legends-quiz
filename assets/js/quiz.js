@@ -91,3 +91,22 @@ let counter = 75;
 
 // event listeners
 quizButton.addEventListener("click", hideModal)
+
+// starting quiz from here
+function startQuiz () {
+    document.getElementById("progress-bar").setAttribute("style", `width:${0}%`)
+    quizSection.style.display = "block";
+    const interval = setInterval(function () {
+        welcome.innerHTML = `Hello ${checkInput.value} you have ${counter} seconds left!`;
+        counter--;
+        if (counter < 15) {
+            welcome.style.color = "red";
+        }
+        if (counter === -1) {
+            clearInterval(interval);
+            // Redirect user to result page
+            window.location = "../timeout.html";
+        }
+    }, 1000)
+
+}
