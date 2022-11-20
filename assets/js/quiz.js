@@ -88,3 +88,6 @@ const quizQuestions = [
 
 let currentQuestion = 0;
 let counter = 75;
+
+// event listeners
+quizButton.addEventListener("click", hideModal)
