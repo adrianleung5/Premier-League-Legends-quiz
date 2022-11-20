@@ -121,4 +121,24 @@ function getQuizQuestions () {
     optionC.innerHTML = "<p class = 'option' id = 'C'>" + questions.optionC + "</p>" ;
     optionD.innerHTML = "<p class = 'option' id = 'D'>" + questions.optionD + "</p>" ;
 
-  
+    if (currentQuestion === 7) {
+        document.querySelector("#next_button").innerHTML="View Results"
+    } 
+
+    optionA.style.pointerEvents="auto";
+    optionB.style.pointerEvents="auto";
+    optionC.style.pointerEvents="auto";
+    optionD.style.pointerEvents="auto";
+    nextButton.setAttribute("disabled" ,"true");
+
+}
+
+function nextQuestion () {
+    const progress= ((currentQuestion)/8)*100;
+    document.getElementById("progress-bar").setAttribute("style", `width:${progress}%`)
+    if (currentQuestion===8) {
+        getResult(); 
+    }
+    else {
+        getQuizQuestions();
+    }
