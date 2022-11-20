@@ -81,6 +81,9 @@ body {
     border: 1px solid #999999
 }
 
+
+/* modal  */
+
 .modal-box {
     display: none;
     position: fixed;
@@ -116,4 +119,22 @@ body {
 .modal-title {
     font-size: 1.5rem;
     margin-bottom: 1rem;
+}
+
+.instructions-list {
+    text-align: left;
+    margin-bottom: 1rem;
+    font-weight: 600;
+    list-style-position: inside;
+    display: inline-block;
+
+}
+
+.instructions-list li {
+    padding: 0.5rem;
+}
+
+.instructions {
+    text-align: center;
+
 }
