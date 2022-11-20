@@ -110,3 +110,13 @@ function startQuiz () {
     }, 1000)
 
 }
+
+// / get the questions and options
+function getQuizQuestions () {
+    document.getElementById("progress_number").innerHTML=`question ${currentQuestion+1} of 8 `
+    const questions = quizQuestions [currentQuestion];
+    question.innerHTML = "<h1>" + questions.question +" </h1>";
+    optionA.innerHTML = "<p class = 'option' id = 'A'>" + questions.optionA + "</p>" ; 
+    optionB.innerHTML =  "<p class = 'option' id ='B'>" + questions.optionB + "</p>" ;
+    optionC.innerHTML = "<p class = 'option' id = 'C'>" + questions.optionC + "</p>" ;
+    optionD.innerHTML = "<p class = 'option' id = 'D'>" + questions.optionD + "</p>" ;
