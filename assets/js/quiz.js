@@ -142,3 +142,12 @@ function nextQuestion () {
     else {
         getQuizQuestions();
     }
+}
+
+function getResult () {
+    window.location = "../result.html"
+}
+
+document.addEventListener("DOMContentLoaded", function () {
+    getQuizQuestions();
+})
