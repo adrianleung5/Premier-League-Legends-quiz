@@ -1,15 +1,17 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&family=Titillium+Web:wght@300&display=swap');
 
+/* Header */
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&family=Titillium+Web:wght@300&display=swap');
+
 body {
     font-family: Oswald, sans-serif;
 }
 
-#homepage {
+html * {
     background-color: #3d185b;
 }
 
-
-/* Header - landing page*/
 .title {
     text-decoration: none;
     color: whitesmoke;
@@ -139,7 +141,9 @@ body {
 
 }
 
-/* Sign up  */
+
+
+/* sign up */
 #sign_up {
     width: 100%;
     position: relative;
@@ -292,4 +296,35 @@ body {
 #quiz {
     display: none;
     position: relative;
+
 }
+
+/* Progress bar */
+#progress_bar {
+    padding: 2rem;
+    
+
+}
+
+.bar {
+    width: 75%;
+    text-align: center;
+    height: 10px;
+    background-color: #3d185b;
+    border-style: solid;
+    margin:auto;
+    border-radius: 0px 60px 0px;
+}
+.bar div {
+    height: 100%;
+    border-radius: 0px 60px;
+    background-color: whitesmoke;
+    transition: all 300ms;
+}
+
+#progress_number{
+    text-align: center;
+    color:whitesmoke;
+    font-size: 1.8rem;
+}
+
