@@ -265,3 +265,31 @@ body {
     justify-content: center;
     flex-wrap: wrap;
 }
+
+.option {
+    text-align: center;
+    cursor: pointer;
+    min-width: 35rem;
+    border-radius: 1rem;
+    background-color: whitesmoke;
+    border-style: solid;
+    padding: 1rem;
+    margin-bottom: 2rem;
+    margin-left: 2.5rem;
+}
+
+#next_button {
+    width: 52%;
+    background-color: ;
+}
+
+.option-container:hover p {
+    background-color: #3d185b;
+    color: #f0ffff
+    
+}
+
+#quiz {
+    display: none;
+    position: relative;
+}
