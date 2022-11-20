@@ -85,3 +85,6 @@ const quizQuestions = [
     }
 
 ]
+
+let currentQuestion = 0;
+let counter = 75;
