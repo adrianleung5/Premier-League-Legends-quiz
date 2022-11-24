@@ -116,10 +116,28 @@ const quizQuestions = shuffleArray.slice(0,8)
 let currentQuestion = 0;
 let counter = 75;
 
-
 // event listeners
 quizButton.addEventListener("click", hideModal)
 navigate.addEventListener("click", redirectPage);
+
+// functions
+function hideModal () {
+    if (checkInput.value.length>0) {
+        modalBox.style.display="none";
+        startQuiz();
+    }
+
+}
+
+function redirectPage () {
+    return window.location.assign ("index.html");
+}
+
+// timeout functions
+function showTimeoutModal() {
+    timeoutBox.style.display="block";
+}
+
 
 // starting quiz from here
 function startQuiz () {
