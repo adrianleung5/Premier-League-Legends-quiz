@@ -4,3 +4,7 @@ const score = document.getElementById("score");
 const resultSection =document.getElementById("results_note");
 const navigate = document.getElementById("back_to_home");
 const trophy = document.getElementById("trophy");
+
+// event listeners
+navigate.addEventListener("click", redirectPage);
+
