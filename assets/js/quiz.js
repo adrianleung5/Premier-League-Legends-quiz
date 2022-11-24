@@ -4,6 +4,9 @@ const quizButton = document.getElementById("quiz_button")
 const modalBox = document.getElementById("username");
 const nextButton =document.getElementById("next_button");
 const quizSection =document.getElementById("quiz") ; 
+const navigate = document.getElementById("back_to_home");
+const timeoutBox = document.getElementById("timeout_box")
+
 
 const question = document.getElementById("question");
 const optionA = document.getElementById("optionA");
