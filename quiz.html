@@ -37,4 +37,29 @@
         </div>
     </section>
 
+    <section id="quiz">
+        <p id="welcome"></p>
+        <div class="outer_quiz">
+            <div id="question"> </div>
+            <div id="answer">
+                <div class="option-container" id="optionA" onclick="checkAnswer('A')"> </div>
+                <div class="option-container" id="optionB" onclick="checkAnswer('B')"> </div>
+                <div class="option-container" id="optionC" onclick="checkAnswer('C')"> </div>
+                <div class="option-container" id="optionD" onclick="checkAnswer('D')"> </div>
+                <div class = "space"> </div>
+                <button class="button" id="next_button" type="button" onclick="nextQuestion()" disabled> Next <i id = "nextIcon" class="fa fa-hand-o-right iconStyle" aria-hidden="true"></i>
+                </button>
+            </div>
+            <div id="progress_bar">
+                <div class="bar" id="progressBar">
+                    <div id="progress-bar"> </div>
+                </div>
+                <p id = "progress_number"></p>
+            </div>
+
+        </div>
+
+    </section>
+
+
   
