@@ -10,6 +10,7 @@ const form = document.getElementById("form")
 instructions_button.addEventListener("click", showModal) ;
 closeIcon.addEventListener("click", closeModal);
 getStartedButton.addEventListener("click", redirect) 
+closeSignup.addEventListener("click", closeSignupModal)
 
 // homepage functions
 function showModal() {
