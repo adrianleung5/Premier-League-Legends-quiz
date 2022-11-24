@@ -163,7 +163,7 @@ function startQuiz () {
 
 // / get the questions and options
 function getQuizQuestions () {
-    document.getElementById("progress_number").innerHTML=`question ${currentQuestion+1} of 8 `
+    document.getElementById("progress_number").innerHTML=`Question ${currentQuestion+1} of 8 `
     const questions = quizQuestions [currentQuestion];
     question.innerHTML = "<h1>" + questions.question +" </h1>";
     optionA.innerHTML = "<p class = 'option' id = 'A'>" + questions.optionA + "</p>" ; 
