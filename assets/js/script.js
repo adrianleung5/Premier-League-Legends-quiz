@@ -19,6 +19,14 @@ function showModal() {
 function closeModal () {
 modalBox.style.display= "none";
 }
+
+function closeSignupModal () {
+    signUpBox.style.display= "none";
+    form.reset();
+    // bring user back to the quiz section
+    window.scrollTo({top:0})
+}
+
 function redirect () {
     return window.location.assign("./quiz.html")
 }
