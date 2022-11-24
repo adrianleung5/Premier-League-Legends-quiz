@@ -16,6 +16,11 @@ closeSignup.addEventListener("click", closeSignupModal)
 function showModal() {
     modalBox.style.display="block";
 }
+
+function showSignupModal() {
+    signUpBox.style.display="block";
+}
+
 function closeModal () {
 modalBox.style.display= "none";
 }
