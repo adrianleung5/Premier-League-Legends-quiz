@@ -119,6 +119,7 @@ let counter = 75;
 
 // event listeners
 quizButton.addEventListener("click", hideModal)
+navigate.addEventListener("click", redirectPage);
 
 // starting quiz from here
 function startQuiz () {
