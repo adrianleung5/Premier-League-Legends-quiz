@@ -180,21 +180,26 @@ function getQuizQuestions () {
 
 }
 
-function nextQuestion () {
-    const progress= ((currentQuestion)/8)*100;
-    document.getElementById("progress-bar").setAttribute("style", `width:${progress}%`)
-    if (currentQuestion===8) {
-        getResult(); 
+let totalCorrectAnswer = 0;
+function checkAnswer (option) {
+    const selectedAnswer = document.getElementById(option);
+    const questions = quizQuestions[currentQuestion];
+    const correctAnswer = document.getElementById (questions.correctAnswer) 
+    if (selectedAnswer.innerText===correctAnswer.innerText) {
+        selectedAnswer.style.backgroundColor="green"; 
+        totalCorrectAnswer++;
     }
     else {
-        getQuizQuestions();
+        selectedAnswer.style.backgroundColor="red";
+        correctAnswer.style.background="green";
+    
     }
+    optionA.style.pointerEvents="none";
+    optionB.style.pointerEvents="none";
+    optionC.style.pointerEvents="none";
+    optionD.style.pointerEvents="none";
+    nextButton.removeAttribute("disabled");
+    currentQuestion++; // incrementing to next question
+    const progress= ((currentQuestion)/8)*100;
+    document.getElementById("progress-bar").setAttribute("style", `width:${progress}%`)
 }
-
-function getResult () {
-    window.location = "../result.html"
-}
-
-document.addEventListener("DOMContentLoaded", function () {
-    getQuizQuestions();
-})
