@@ -203,3 +203,12 @@ function checkAnswer (option) {
     const progress= ((currentQuestion)/8)*100;
     document.getElementById("progress-bar").setAttribute("style", `width:${progress}%`)
 }
+
+function nextQuestion () {
+    if (currentQuestion===8) {
+        getResult(); 
+    }
+    else {
+        getQuizQuestions();
+    }
+}
