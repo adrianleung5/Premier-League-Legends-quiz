@@ -212,3 +212,18 @@ function nextQuestion () {
         getQuizQuestions();
     }
 }
+
+function getResult () {
+    const result = (totalCorrectAnswer/8) *100;
+    // store the variable result which can be accessed by another js file
+    localStorage.setItem("result",result.toString());
+    const username = checkInput.value;
+    localStorage.setItem("username", username);
+    // redirect user to results page
+
+    window.location = "results.html"
+}
+
+document.addEventListener("DOMContentLoaded", function () {
+    getQuizQuestions();
+})
