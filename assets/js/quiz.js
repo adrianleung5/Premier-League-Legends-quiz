@@ -13,7 +13,7 @@ const optionD = document.getElementById("optionD")
 
 const quizQuestions = [
     {
-        question: "Q1. At the end of which season did Sir Alex Ferguson retire?", 
+        question: "At the end of which season did Sir Alex Ferguson retire?", 
         optionA: "A - 2010", 
         optionB: "B - 2012",
         optionC: "C - 2009",
@@ -22,7 +22,7 @@ const quizQuestions = [
     },
 
     {
-        question: "Q2. Who is currently the longest serving manager in the Premier League in their current club?", 
+        question: "Who is currently the longest serving manager in the Premier League in their current club?", 
         optionA: "A - David Moyes", 
         optionB: "B - Jurgen Klopp",
         optionC: "C - Pep Guardiola",
@@ -31,7 +31,7 @@ const quizQuestions = [
     },
 
     {
-        question: "Q3. Who has the second highest record number of goals from midfield in the Premier League?", 
+        question: "Who has the second highest record number of goals from midfield in the Premier League?", 
         optionA: "A - Yaya Toure", 
         optionB: "B - David Beckham",
         optionC: "C - Matt Le Tissier",
@@ -40,7 +40,7 @@ const quizQuestions = [
     },
 
     {
-        question: "Q4. Who has the highest number of assits in the premier league?", 
+        question: "Who has the highest number of assits in the premier league?", 
         optionA: "A - Thierry Henry", 
         optionB: "B - Steven Gerrard",
         optionC: "C - Ryan Giggs",
@@ -49,7 +49,7 @@ const quizQuestions = [
     },
 
     {
-        question: "Q5. When year did Arsene Wenger make his managerial debut?", 
+        question: "When year did Arsene Wenger make his managerial debut?", 
         optionA: "A - 1994", 
         optionB: "B - 1998",
         optionC: "C - 1996",
@@ -58,7 +58,7 @@ const quizQuestions = [
     },
 
     {
-        question: "Q6. When season did Alan Shearer set the record for the highest premier league goals in a season?", 
+        question: "When season did Alan Shearer set the record for the highest premier league goals in a season?", 
         optionA: "A - 1993", 
         optionB: "B - 1996",
         optionC: "C - 2000",
@@ -67,7 +67,7 @@ const quizQuestions = [
     },
 
     {
-        question: "Q7. What player has the record amount of red cards in the premier league?", 
+        question: "What player has the record amount of red cards in the premier league?", 
         optionA: "A - Duncan Ferguson", 
         optionB: "B - Patrick Viera",
         optionC: "C - Roy Keane",
@@ -76,14 +76,38 @@ const quizQuestions = [
     },
 
     {
-        question: "Q8. What player the highest amount of premier league appearances?", 
+        question: "What player the highest amount of premier league appearances?", 
+        optionA: "A - Ryan Giggs", 
+        optionB: "B - James Milner",
+        optionC: "C - Frank Lampard",
+        optionD: "D - Gareth Barry",
+        correctAnswer: "D"
+    },
+    {
+        question: "Who has won the most premier league titles?", 
+        optionA: "A - Dennis Irwin", 
+        optionB: "B - Ryan Giggs",
+        optionC: "C - Paul Scholes",
+        optionD: "D - Roy Keane",
+        correctAnswer: "B"
+    },
+    {
+        question: "What goalkeeper has the most clean sheets?", 
+        optionA: "A - David Seaman", 
+        optionB: "B - Mark Schwarzer",
+        optionC: "C - Petr Cech",
+        optionD: "D - David James",
+        correctAnswer: "D"
+    },
+
+    {
+        question: "11. What player the highest amount of premier league appearances?", 
         optionA: "A - Ryan Giggs", 
         optionB: "B - James Milner",
         optionC: "C - Frank Lampard",
         optionD: "D - Gareth Barry",
         correctAnswer: "D"
     }
-
 ]
 
 let currentQuestion = 0;
