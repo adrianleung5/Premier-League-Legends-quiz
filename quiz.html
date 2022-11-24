@@ -29,7 +29,7 @@
                 <form onsubmit="return false">
                     <input id="quiz_username" type="text" class="username-text-input" placeholder="Enter your name"
                         required>
-                    <button id="quiz_button" class="start-quiz-button"> Start quiz</button>
+                    <button id="quiz_button" class="button"> Start quiz &nbsp; &nbsp; &nbsp;<i class="fa fa-arrow-right" aria-hidden="true"></i></button>
                 </form>
 
             </div>
@@ -37,24 +37,4 @@
         </div>
     </section>
 
-    <section id="quiz">
-        <p id="welcome"></p>
-        <div class="outer_quiz">
-            <div id="question"> </div>
-            <div id="answer">
-                <div class="option-container" id="optionA" onclick="checkAnswer('A')"> </div>
-                <div class="option-container" id="optionB" onclick="checkAnswer('B')"> </div>
-                <div class="option-container" id="optionC" onclick="checkAnswer('C')"> </div>
-                <div class="option-container" id="optionD" onclick="checkAnswer('D')"> </div>
-                <br>
-                <br>
-                <button class="button" id="next_button" type="button" onclick="nextQuestion()" disabled> Next </button>
-            </div>
-            <div id="progress_bar">
-                <div class="bar" id="progressBar">
-                    <div id="progress-bar"> </div>
-                </div>
-                <p id = "progress_number"></p>
-            </div>
-
-        </div>
+  
