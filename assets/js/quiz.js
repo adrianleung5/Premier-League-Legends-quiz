@@ -14,7 +14,7 @@ const optionB = document.getElementById("optionB");
 const optionC = document.getElementById("optionC");
 const optionD = document.getElementById("optionD")
 
-const quizQuestions = [
+const allQuizQuestions = [
     {
         question: "At the end of which season did Sir Alex Ferguson retire?", 
         optionA: "A - 2010", 
@@ -154,8 +154,8 @@ function startQuiz () {
         }
         if (counter === -1) {
             clearInterval(interval);
-            // Redirect user to result page
-            window.location = "../timeout.html";
+            // Display Timeout Modal to user
+            showTimeoutModal();
         }
     }, 1000)
 
