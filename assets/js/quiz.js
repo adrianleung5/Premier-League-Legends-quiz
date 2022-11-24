@@ -110,8 +110,12 @@ const quizQuestions = [
     }
 ]
 
+// shuffling the original array
+const shuffleArray = allQuizQuestions.sort(()=> 0.5 - Math.random());
+const quizQuestions = shuffleArray.slice(0,8)
 let currentQuestion = 0;
 let counter = 75;
+
 
 // event listeners
 quizButton.addEventListener("click", hideModal)
