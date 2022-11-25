@@ -7,6 +7,7 @@
     <meta name="description" content="Premier League Quiz">
     <meta name="keyords" content="football, soccer, premier league, sport">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="icon" type="image/x-icon" href="assets/favicon/favicon.ico">
     <link rel="stylesheet" href="assets/css/style.css">
 
 </head>
@@ -42,12 +43,12 @@
         <div class="outer_quiz">
             <div id="question"> </div>
             <div id="answer">
-                <div class="option-container" id="optionA" onclick="checkAnswer('A')"> </div>
-                <div class="option-container" id="optionB" onclick="checkAnswer('B')"> </div>
-                <div class="option-container" id="optionC" onclick="checkAnswer('C')"> </div>
-                <div class="option-container" id="optionD" onclick="checkAnswer('D')"> </div>
+                <div class="option-container" id="optionA"> </div>
+                <div class="option-container" id="optionB"> </div>
+                <div class="option-container" id="optionC"> </div>
+                <div class="option-container" id="optionD"> </div>
                 <div class = "space"> </div>
-                <button class="button" id="next_button" type="button" onclick="nextQuestion()" disabled> Next <i id = "nextIcon" class="fa fa-hand-o-right iconStyle" aria-hidden="true"></i>
+                <button class="button" id="next_button" type="button" disabled> Next <i id = "nextIcon" class="fa fa-hand-o-right iconStyle" aria-hidden="true"></i>
                 </button>
             </div>
             <div id="progress_bar">
