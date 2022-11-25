@@ -30,8 +30,9 @@ html {
 
 }
 
-.homepage_content_title {
+.homepage_content_title, .result_content_title {
     display: flex;
+    padding-top: 2rem;
     justify-content: center;
     color: whitesmoke;
     text-align: center;
@@ -43,12 +44,15 @@ html {
     justify-content: center;
     color: whitesmoke;
     text-align: center;
-    font-size: 2rem;
+    font-size: 1.8rem;
 }
 
 .quiz_image {
     display: flex;
     justify-content: center;
+    animation:quiz_image;
+    animation-duration: 5s;
+    animation-fill-mode: forwards;
 }
 
 .button_area {
