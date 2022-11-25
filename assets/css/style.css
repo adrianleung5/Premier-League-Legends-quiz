@@ -92,6 +92,10 @@ html {
     border: 1px solid #999999
 }
 
+.button:hover,
+.button:active {
+    transform: translateY(-3px);
+}
 
 /* modal  */
 
