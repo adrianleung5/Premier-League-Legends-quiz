@@ -173,7 +173,10 @@ The use of these fonts togetheir was inspired by [Elementor.com](https://element
 ![quiz.js](assets/images/quizjs.png "quiz.js")
 ![result.js](assets/images/resultjs.png "result.js")
 
-# Deployment
+- Colour contrast tests were carried out across the website and all came back without issue as shown by Ally Color Contrast Accessiblty 
+ ![color checker](assets/images/a11y.png "color checker")
+
+## Deployment
 The site was deployed to Github pages
 - Navitgate to the settings tab of the Github repository via [Github repository](https://github.com/adrianleung5/Leung-Wellness).
 - Select pages tab on the left side of the page under code and automation.
@@ -181,11 +184,11 @@ The site was deployed to Github pages
 - Page will refresh, Return to the repository page and you will a "github-pages active" icon under enviornment on the right side of the page.
 ![How to deploy](assets/images/deployment.png "How to deploy")
 
-# To Fork the Repository
+### To Fork the Repository
 - Go into Github and select the fork icon on the top right.
 ![How to create Fork](assets/images/fork.png "How to create Fork")
 
-# Create a local clone
+### Create a local clone
 - Log into Github and go to the repository.Click on the ‘code’ tab beside the gitpod button.
 - Select the clipboard icon
 - In your IED open GitBash
