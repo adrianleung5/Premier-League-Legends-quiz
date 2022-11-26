@@ -46,6 +46,7 @@ function closeSignupModal () {
     signUpBox.style.display= "none";
     form.reset();
     /* bring user back to the quiz section */
+    /* The scrolling back to top function was inspired by geeksforgeeks.org */
     window.scrollTo({top:0});
 }
 

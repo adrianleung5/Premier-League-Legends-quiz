@@ -158,13 +158,14 @@ The use of these fonts togetheir was inspired by [Elementor.com](https://element
 - No errors were shown when putting the code through the w3c html validator.
 
    - Index.html validation
-    ![w3c-validation](README-images/w3c.png)
-
+   ![HTML valudator](assets/images/404.png "HTML validator")
+ 
+  
    - 404 Page validation
-    ![404-validation](README-images/404w3c.png) 
+    
 
 - No errors were shown when putting the code through the jigsaw css validator.
-![jigsaw-validation](README-images/jigsaw.png)
+
 
 
 

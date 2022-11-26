@@ -1,4 +1,5 @@
 /* Get the result and username string from quiz.js and convert it back to number */
+/* The conversion of string to number was inspired by freecodecamp.com */
 const result = +localStorage.getItem("result");
 const username = localStorage.getItem("username");
 

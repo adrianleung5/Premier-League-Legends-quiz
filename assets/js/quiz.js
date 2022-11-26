@@ -127,6 +127,7 @@ const allQuizQuestions = [
 ];
 /* Shufling the original questions to display random questions 
 * each time the quiz is started */
+/*  This shuffling was inspired from https://sebhastian.com/shuffle-array-javascript/ */
 const shuffleArray = allQuizQuestions.sort(()=> 0.5 - Math.random());
 const quizQuestions = shuffleArray.slice(0,8);
 let currentQuestion = 0;
@@ -142,6 +143,7 @@ function hideModal () {
 }
 
 /* redirect user back to the homepage */
+/*  This was inspired by https://stackoverflow.com/questions/503093/how-do-i-redirect-to-another-webpage */
 function redirectPage () {
     return window.location.assign ("index.html");
 }
@@ -158,6 +160,8 @@ function showTimeoutModal() {
 function startQuiz () {
     document.getElementById("progress-bar").setAttribute("style", `width:${0}%`);
     quizSection.style.display = "block";
+
+    /* The counter was inspired from https://www.w3schools.com/jsref/met_win_setinterval.asp */
     const interval = setInterval(function () {
         welcome.innerHTML = `Hello ${checkInput.value} you have ${counter} seconds left!`;
         counter--;
@@ -247,11 +251,11 @@ function nextQuestion () {
     }
 }
 
-
  /* This function gathers the result and stores it into local storage to be accessed in results page*/    
  function getResult () {
     const result = (totalCorrectAnswer/8) *100;
     /* store the variable result which can be accessed by another js file */
+    /*  The storing of result in local storage was taken from https://stackoverflow.com/questions/17309199/how-to-send-variables-from-one-file-to-another-in-javascript */
     localStorage.setItem("result",result.toString());
 
     const username = checkInput.value;
