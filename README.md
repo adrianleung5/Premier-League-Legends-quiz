@@ -224,13 +224,17 @@ The site was deployed to Github pages
 ## Credits
 
 ### Content
+- Icons from footer taken from [Font Awesome ](https://fontawesome.com/)
+- The quiz was inspired by [Sean Johnstons quiz] (https://github.com/seanf316/P2-Movie-Buff-Or-Bluff)
+- Inspiration for the README.md came from [Gareth McGirr](https://github.com/Gareth-McGirr/tacos-travels)
 
 ### Media
-- 
--  
+-  All photos taken from [Unsplashed](https://unsplash.com/) and google images
+-  The social media icons was taken from [Font Awesome ](https://fontawesome.com/)
 
 ## Code 
-- 
+- I found a lot of useful tutorials online. I occasionally applied principles from them to the site after thoroughly understanding their code and modifying it to meet the needs of the site.
+
 
 
 
