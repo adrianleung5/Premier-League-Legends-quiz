@@ -162,7 +162,7 @@ function startQuiz () {
         welcome.innerHTML = `Hello ${checkInput.value} you have ${counter} seconds left!`;
         counter--;
         if (counter < 15) {
-            /* change the 
+            /* change the timer to red when less than 15 seconds left */
             welcome.style.color = "red"; 
         }
         if (counter === -1) {
