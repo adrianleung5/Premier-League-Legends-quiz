@@ -164,6 +164,7 @@ The use of these fonts togetheir was inspired by [Elementor.com](https://element
 - [Coolors.co](https://coolors.co/)
 - [Unsplashed](https://unsplash.com/)
 - [Jshint] (https://jshint.com/)
+- [freepngimg](https://freepngimg.com/png/32207-premier-league-file/icon)
  
 ## Testing 
 
@@ -223,13 +224,13 @@ The site was deployed to Github pages
 ## Credits
 
 ### Content
-- Icons from footer taken from [Font Awesome ](https://fontawesome.com/)
-- The quiz was inspired by [Sean Johnstons quiz](https://github.com/seanf316/P2-Movie-Buff-Or-Bluff)
-- Inspiration for the README.md came from [Gareth McGirr](https://github.com/Gareth-McGirr/tacos-travels)
+- [Sean Johnstons quiz](https://github.com/seanf316/P2-Movie-Buff-Or-Bluff) The quiz was inspired by 
+- [Gareth McGirr](https://github.com/Gareth-McGirr/tacos-travels) was used for inspiration for the README.md 
 
-### Media
--  All photos taken from [Unsplashed](https://unsplash.com/) and google images
--  The social media icons was taken from [Font Awesome ](https://fontawesome.com/)
+### Media 
+- [Unsplashed](https://unsplash.com/) and google images was used for the images on the homepage
+- [Font Awesome ](https://fontawesome.com/) was used for the social media icons and icons throughout the quiz.
+- [freepngimg](https://freepngimg.com/png/32207-premier-league-file/icon) was used for the favicon
 
 ## Code 
 - I found a lot of useful tutorials online. I occasionally applied principles from them to the site after thoroughly understanding their code and modifying it to meet the needs of the site.
@@ -238,7 +239,8 @@ The site was deployed to Github pages
 - [Codepen](https://codepen.io/kanishkkunal/pen/obGojO) was used to to research CSS syntax
 - [Geeksforgeeks](https://www.geeksforgeeks.org/scroll-to-the-top-of-the-page-using-javascript-jquery/#:~:text=scrollTo()%3A,the%20topmost%20and%20leftmost%20point.)
   was used to enable users to scroll userto the top of page in javascript.
-- [developer.mozilla](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Flexible_Box_Layout/Aligning_Items_in_a_Flex_Container) was used to help undrstand flex boc
+- [developer.mozilla](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Flexible_Box_Layout/Aligning_Items_in_a_Flex_Container) was used to help undrstand flex box
+
 
 
 
