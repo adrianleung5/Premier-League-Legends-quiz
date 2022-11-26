@@ -27,10 +27,12 @@ html {
 #logo {
     display: flex;
     justify-content: center;
-    font-size: 1rem;
+    font-size: 125%;
+    padding: 1rem;
 }
 
-.homepage_content_title, .result_content_title {
+.homepage_content_title,
+.result_content_title {
     display: flex;
     padding-top: 2rem;
     justify-content: center;
@@ -39,7 +41,8 @@ html {
     font-size: 2rem;
 }
 
-.homepage_paragraph. {
+.homepage_paragraph. 
+.not_found_paragraph {
     display: flex;
     justify-content: center;
     color: whitesmoke;
@@ -50,9 +53,19 @@ html {
 .quiz_image {
     display: flex;
     justify-content: center;
-    animation:quiz_image;
+    animation: quiz_image;
     animation-duration: 5s;
     animation-fill-mode: forwards;
+}
+
+/* animation effect for homepage */
+@keyframes quiz_image {
+    from {
+        transform: scale(1);
+    }
+    to {
+        transform: scale(1.1);
+    }
 }
 
 .button_area {
@@ -61,7 +74,7 @@ html {
     flex-wrap: wrap;
     margin: 7px auto;
     width: 30rem;
-    padding: 2rem 0;
+    padding: 2rem 3rem;
 }
 
 .start_btn {
@@ -89,7 +102,7 @@ html {
 .button:disabled {
     background-color: #cccccc;
     color: #666666;
-    border: 1px solid #999999
+    border: 1px solid #999999;
 }
 
 .button:hover,
@@ -97,7 +110,7 @@ html {
     transform: translateY(-3px);
 }
 
-/* modal  */
+/* Instructions and signup modal for homepage  */
 
 .modal-box {
     display: none;
@@ -120,10 +133,12 @@ html {
     border: 3px solid whitesmoke;
     border-radius: 1rem;
     width: 40%;
-    background-color:#3d185b;
+    background-color: #3d185b;
 
 }
-.timeout-modal-content, .signup-modal-content {
+
+.timeout-modal-content,
+.signup-modal-content {
     text-align: center;
     color: whitesmoke;
     margin: 15% auto;
@@ -131,11 +146,12 @@ html {
     border: 3px solid whitesmoke;
     border-radius: 1rem;
     width: 70%;
-    background-color:#3d185b;
+    background-color: #3d185b;
 
 }
 
-.close-modal, .close-signup {
+.close-modal,
+.close-signup {
     color: whitesmoke;
     font-size: 2rem;
     font-weight: 600;
@@ -167,56 +183,7 @@ html {
 
 }
 
-/* sign up */
-#sign_up {
-    width: 100%;
-    position: relative;
-    bottom: 190px;
-}
-
-.sign-up-style {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    margin: 200px;
-}
-
-.sign-up-title {
-    color: whitesmoke;
-    font-size: 2rem;
-    margin-bottom: 1rem;
-    text-align: center;
-}
-
-.signup-label {
-    color: whitesmoke;
-    padding-bottom: 10px;
-
-}
-
-.sign-up-form {
-    display: flex;
-    flex-direction: column;
-    width: 100px;
-    font-weight: 700;
-    margin: 1rem auto;
-}
-
-.input-name {
-    color: whitesmoke;
-    line-height: 2rem;
-    margin-bottom: 0.5rem;
-    border: 3px solid whitesmoke;
-    border-radius: 0.5rem;
-
-}
-
-.feedback-text {
-    color: whitesmoke;
-    border: 3px solid whitesmoke;
-    border-radius: 0.4rem;
-}
-
+/* styles for sign up page */
 #sign_up {
     width: 100%;
     position: relative;
@@ -312,180 +279,181 @@ html {
     font-size: 1.3rem;
     padding: 0.5rem 1rem;
     margin: 0rem auto 1rem;
-
-/* styles for quiz page*/
-
-#welcome {
-    color: whitesmoke;
-    text-align: center;
-    font-size: 1.8rem;
-
 }
+    /* styles for quiz page*/
 
-#question {
-    color: whitesmoke;
-    text-align: center;
-    font-size: 1.5rem;
-}
+    #welcome {
+        color: whitesmoke;
+        text-align: center;
+        font-size: 1.8rem;
 
-#answer {
-    display: flex;
-    flex-direction: row;
-    text-align: center;
-    justify-content: center;
-    flex-wrap: wrap;
-}
+    }
 
-.option {
-    text-align: center;
-    cursor: pointer;
-    min-width: 35rem;
-    border-radius: 1rem;
-    background-color: whitesmoke;
-    border-style: solid;
-    padding: 1rem;
-    margin-bottom: 2rem;
-    margin-left: 2.5rem;
-}
+    #question {
+        color: whitesmoke;
+        text-align: center;
+        font-size: 1.5rem;
+    }
 
-#next_button {
-    width: 52%;
-}
+    #answer {
+        display: flex;
+        flex-direction: row;
+        text-align: center;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
 
-.option-container:hover p {
-    background-color: #3d185b;
-    color: #f0ffff
-}
+    .option {
+        text-align: center;
+        cursor: pointer;
+        min-width: 35rem;
+        border-radius: 1rem;
+        background-color: whitesmoke;
+        border-style: solid;
+        padding: 1rem;
+        margin-bottom: 2rem;
+        margin-left: 2.5rem;
+    }
 
-#quiz {
-    display: none;
-    position: relative;
+    #next_button {
+        width: 52%;
+    }
 
-}
+    .option-container:hover p {
+        background-color: #3d185b;
+        color: #f0ffff
+    }
 
-/* Progress bar */
-#progress_bar {
-    padding: 2rem;
-    
+    #quiz {
+        display: none;
+        position: relative;
 
-}
+    }
 
-.bar {
-    width: 75%;
-    text-align: center;
-    height: 10px;
-    background-color: #3d185b;
-    border-style: solid;
-    margin:auto;
-    border-radius: 0px 60px 0px;
-}
-.bar div {
-    height: 100%;
-    border-radius: 0px 60px;
-    background-color: whitesmoke;
-    transition: all 300ms;
-}
-
-#progress_number{
-    text-align: center;
-    color:whitesmoke;
-    font-size: 1.8rem;
-}
-
-.space {
-    margin-top: 7rem;
-}
+    /* Progress bar */
+    #progress_bar {
+        padding: 2rem;
 
 
-/* styles for results */
+    }
 
-.congrats,
-.timeout {
-    font-size: 10rem;
-    text-align: center;
-}
+    .bar {
+        width: 75%;
+        text-align: center;
+        height: 10px;
+        background-color: #3d185b;
+        border-style: solid;
+        margin: auto;
+        border-radius: 0px 60px 0px;
+    }
 
-.fail {
-    text-align: center;
-    color: red;
-    font-size: 2.5rem;
-    font-weight: bolder;
+    .bar div {
+        height: 100%;
+        border-radius: 0px 60px;
+        background-color: whitesmoke;
+        transition: all 300ms;
+    }
 
-}
+    #progress_number {
+        text-align: center;
+        color: whitesmoke;
+        font-size: 1.8rem;
+    }
 
-.average {
-    text-align: center;
-    color: green;
-    font-size: 2.5rem;
-    font-weight: bolder;
+    .space {
+        margin-top: 7rem;
+    }
 
-}
 
-.excellent {
-    text-align: center;
-    color: gold;
-    font-size: 2.5rem;
-    font-weight: bolder;
+    /* styles for results */
 
-}
+    .congrats,
+    .timeout {
+        font-size: 10rem;
+        text-align: center;
+    }
 
-#results_note {
-    text-align: center;
-    color: whitesmoke;
-    font-size: 1.8rem;
-}
+    .fail {
+        text-align: center;
+        color: red;
+        font-size: 2.5rem;
+        font-weight: bolder;
 
-#back_to_home {
-    align-items: center;
-    margin: auto;
-    position: relative;
-    display: flex;
-}
+    }
 
-/* Icons */
-.fa {
-    background-color: unset;
-}
+    .average {
+        text-align: center;
+        color: green;
+        font-size: 2.5rem;
+        font-weight: bolder;
 
-/* footer style*/
-.contact-us {
-    font-size: 2rem;
-    text-align: center;
-    padding-bottom: 2rem;
-}
+    }
 
-.contact-us a {
-    color: whitesmoke;
-    margin: 1rem;
-}
+    .excellent {
+        text-align: center;
+        color: gold;
+        font-size: 2.5rem;
+        font-weight: bolder;
 
-#image {
-    background-image: url("../images/pitch.png");
-    background-size: 100% 100%;
-}
+    }
 
-.footer-text {
-    color: whitesmoke;
-    text-align: center;
-    font-size: 2rem;
-    font-weight: bold;
-}
+    #results_note {
+        text-align: center;
+        color: whitesmoke;
+        font-size: 1.8rem;
+    }
 
-/* 404 error page  */
+    #back_to_home {
+        align-items: center;
+        margin: auto;
+        position: relative;
+        display: flex;
+    }
 
-.button_section {
-    text-align: center;
-    padding: 2rem;
-    padding: 2rem 0rem 4rem 0rem;
-}
+    /* Icons */
+    .fa {
+        background-color: unset;
+    }
 
-.button_section a {
-    text-decoration: none;
-}
+    /* footer style*/
+    .contact-us {
+        font-size: 2rem;
+        text-align: center;
+        padding-bottom: 2rem;
+    }
 
-.content_title_404 {
-    color: whitesmoke;
-    text-align: center;
-    font-size: 6rem;
-    margin-bottom: 2rem;
-}
+    .contact-us a {
+        color: whitesmoke;
+        margin: 1rem;
+    }
+
+    #image {
+        background-image: url("../images/pitch.png");
+        background-size: 100% 100%;
+    }
+
+    .footer-text {
+        color: whitesmoke;
+        text-align: center;
+        font-size: 2rem;
+        font-weight: bold;
+    }
+
+    /* 404 error page  */
+
+    .button_section {
+        text-align: center;
+        padding: 2rem;
+        padding: 2rem 0rem 4rem 0rem;
+    }
+
+    .button_section a {
+        text-decoration: none;
+    }
+
+    .content_title_404 {
+        color: whitesmoke;
+        text-align: center;
+        font-size: 6rem;
+        margin-bottom: 2rem;
+    }
