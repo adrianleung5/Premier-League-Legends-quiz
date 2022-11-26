@@ -504,3 +504,94 @@ html {
                bottom:1.5rem;
           }
 }
+
+ /*Tablet and above*/
+ @media only screen and (max-width:768px)
+ {
+   .option {
+           min-width: 19rem;
+           margin: 1rem;
+       }
+          .quiz_image {
+                            height: 23rem;
+                    }
+ }
+  /*Small Mobiles*/
+ @media screen and (max-width: 425px)
+ {
+     .title {
+        font-size: 1.5rem
+     }
+     .space {
+         margin-top: 5rem;
+     }
+     #logo {
+        padding: unset;
+        margin-bottom: 1rem;
+        font-size: unset;
+    }
+    .quiz_image {
+        height: 12rem;
+    }
+     .homepage_content_title, .sign-up-title, .footer-text {
+        font-size:unset;
+    }
+    .homepage_paragraph {
+        font-size: unset;
+        padding-left: 0.5rem;
+        padding-right: 0.5rem;
+    }
+    .button,  .contact-us {
+        font-size: 1rem;
+    }
+    .button_area {
+        width: unset;
+        flex-direction: column;
+        padding: 1rem;
+        gap: 1rem;
+    }
+    .modal-content {
+        width: 75%;
+        padding: 1rem;
+    }
+    .modal-title {
+        font-size: 1.3rem;
+    }
+    #quiz_button {
+        width: unset;
+        font-size: unset;
+    }
+    .username-text-input {
+       width: unset;
+       font-size: unset;
+       line-height: unset;
+     }
+     #username, #back_to_home {
+         bottom: 1.5rem;
+    }
+    #welcome, #question {
+        font-size: 0.75rem;
+        font-weight: 600;
+        padding-left: 0.3rem;
+        padding-right: 0.3rem;
+    }
+    .option {
+        min-width: 15rem;
+        margin-bottom: unset;
+    }
+    #next_button {
+        margin-top: 1rem;
+        width: 83%;
+    }
+    .bar {
+        width: 100%
+    }
+    #progress_number, #results_note {
+        font-size: unset;
+        padding-right: 1rem;
+            padding-left: 1rem;
+    }
+    .result_content_title {
+        padding-top: unset;
+    }
+ }

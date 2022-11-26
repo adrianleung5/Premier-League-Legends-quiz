@@ -236,3 +236,5 @@ optionA.addEventListener("click", function () { checkAnswer('A') }) ;
 optionB.addEventListener("click", function () { checkAnswer('B') });
 optionC.addEventListener("click", function () { checkAnswer('C') });
 optionD.addEventListener("click", function () { checkAnswer('D') });
+
+
