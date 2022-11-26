@@ -24,7 +24,7 @@ html {
 }
 
 
-#logo {
+#hero_image {
     display: flex;
     justify-content: center;
     font-size: 125%;
@@ -525,7 +525,7 @@ html {
      .space {
          margin-top: 5rem;
      }
-     #logo {
+     #hero_image {
         padding: unset;
         margin-bottom: 1rem;
         font-size: unset;

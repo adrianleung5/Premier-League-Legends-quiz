@@ -52,3 +52,5 @@ Google fonts was used to import the fonts used for the purpose of this quiz [goo
 The use of these fonts togetheir was inspired by [Elementor.com](https://elementor.com/blog/font-pairing/#). This font provided a sharp and professional look for the quiz.
 
 ## Features
+*Navigation
+- 
