@@ -305,18 +305,15 @@ html {
     font-size: 1.2rem;
 }
 
-.start-quiz-button {
-    border: 3px solid whitesmoke;
+#quiz_button {
     border-radius: 2rem;
-    width: 100%;
-    background-color: whitesmoke;
+    width: 105%;
     text-transform: uppercase;
     font-size: 1.3rem;
     padding: 0.5rem 1rem;
     margin: 0rem auto 1rem;
-    text-align: center;
-    align-items: center;
-}
+
+/* styles for quiz page*/
 
 #welcome {
     color: whitesmoke;
