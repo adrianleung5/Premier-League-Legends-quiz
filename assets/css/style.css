@@ -1,11 +1,15 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&family=Titillium+Web:wght@300&display=swap');
 
+/* styles added at root level */
+
 body {
     font-family: Roboto, Titillium;
     background-color: #3d185b;
     overflow-x: hidden;
     margin: 0px;
 }
+
+/* styles for quiz homepage */
 
 html {
     overflow-x: hidden;
@@ -26,10 +30,6 @@ html {
     font-size: 1rem;
 }
 
-.home-image {
-
-}
-
 .homepage_content_title, .result_content_title {
     display: flex;
     padding-top: 2rem;
@@ -39,7 +39,7 @@ html {
     font-size: 2rem;
 }
 
-.homepage_paragraph {
+.homepage_paragraph. {
     display: flex;
     justify-content: center;
     color: whitesmoke;
@@ -399,3 +399,31 @@ html {
     font-size: 1.8rem;
 }
 
+/* Icons */
+.fa {
+    background-color: unset;
+}
+
+/* footer style*/
+.contact-us {
+    font-size: 2rem;
+    text-align: center;
+    padding-bottom: 2rem;
+}
+
+.contact-us a {
+    color: whitesmoke;
+    margin: 1rem;
+}
+
+#image {
+    background-image: url("../images/pitch.png");
+    background-size: 100% 100%;
+}
+
+.footer-text {
+    color: whitesmoke;
+    text-align: center;
+    font-size: 2rem;
+    font-weight: bold;
+}
