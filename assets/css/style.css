@@ -472,3 +472,22 @@ html {
     font-size: 2rem;
     font-weight: bold;
 }
+
+/* 404 error page  */
+
+.button_section {
+    text-align: center;
+    padding: 2rem;
+    padding: 2rem 0rem 4rem 0rem;
+}
+
+.button_section a {
+    text-decoration: none;
+}
+
+.content_title_404 {
+    color: whitesmoke;
+    text-align: center;
+    font-size: 6rem;
+    margin-bottom: 2rem;
+}
