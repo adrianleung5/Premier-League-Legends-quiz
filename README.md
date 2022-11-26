@@ -79,18 +79,55 @@ The use of these fonts togetheir was inspired by [Elementor.com](https://element
  ![Bottom of homepage](assets/images/login.png "Bottom of Homepage")
 
  ### Main Quiz Section
-  ![quiz-screen](README-images/quiz_question.png) 
+  ![main quiz section](assets/images//question.png "main quiz section")
   The main quiz section  includes the username name along with a greeting , a timer, the question, 4 answer buttons and a next button
 
    - Question
     
       The question is displayed at the top of the section above to question to ensure it is clearly visible to users.
+       ![Question](assets/images/game.png "Question")
 
-    - Timer
-    
-      The question is displayed at the top of the section above the question and will turn red when there is less than 15 seconds remaining. 
-      This will warn users time is running out
+  - Timer
+  
+  - The question is displayed at the top of the section above the question and will turn red when there is less than 15 seconds remaining. 
+    This will warn users time is running out.
+      ![Timer](assets/images/timer.png "Timer")
 
+  - When the timer is done a pop up modal will display redirect user back to the homepage to enable them to play again
+
+      ![Timeout](assets/images/timeout.png "Timeout")
+
+- Answer buttons
+
+  - The answer buttons are displayed in in 2 rows with 2 buttons per row. 
+
+  ![answers](assets/images/answers.png "answers")
+
+  - For smaller mobile phone devices the questions are displayed in a column of 4.
+  - The answer buttons change color to red or green to demonstrate to the user if their correc was right or wrong. 
+
+    ![incorrect](assets/images/incorrect.png "incorrect")
+
+- Progress bar 
+
+- The progess fills as the user progresses through the quiz. This enables the user to know how much of the quiz is left
+
+![bar](assets/images/incorrect.png "bar")
+
+- Social media links
+
+- The social media links enable the user to vist the quizs social media pages to find out more information.
+
+![media](assets/images/media.png "media")
+
+
+
+  
+
+  
+
+      
+       
 
 
 
