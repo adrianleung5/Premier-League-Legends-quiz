@@ -220,12 +220,11 @@ The site was deployed to Github pages
 - Type ‘git clone’ and then paste the URL copied from GitHub.
 - press enter and the local clone will be created.
 
-
 ## Credits
 
 ### Content
 - Icons from footer taken from [Font Awesome ](https://fontawesome.com/)
-- The quiz was inspired by [Sean Johnstons quiz] (https://github.com/seanf316/P2-Movie-Buff-Or-Bluff)
+- The quiz was inspired by [Sean Johnstons quiz](https://github.com/seanf316/P2-Movie-Buff-Or-Bluff)
 - Inspiration for the README.md came from [Gareth McGirr](https://github.com/Gareth-McGirr/tacos-travels)
 
 ### Media
@@ -234,6 +233,16 @@ The site was deployed to Github pages
 
 ## Code 
 - I found a lot of useful tutorials online. I occasionally applied principles from them to the site after thoroughly understanding their code and modifying it to meet the needs of the site.
+- [Stack Overflow](https://stackoverflow.com/) was used to solve various was used to help develop the javascript of the quiz
+- [W3schools](https://www.w3schools.com/) was used to , research various javscript, html and CSS syntax
+- [Codepen](https://codepen.io/kanishkkunal/pen/obGojO) was used to to research CSS syntax
+- [Geeksforgeeks](https://www.geeksforgeeks.org/scroll-to-the-top-of-the-page-using-javascript-jquery/#:~:text=scrollTo()%3A,the%20topmost%20and%20leftmost%20point.)
+  was used to enable users to scroll userto the top of page in javascript.
+- [developer.mozilla](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Flexible_Box_Layout/Aligning_Items_in_a_Flex_Container) was used to help undrstand flex boc
+
+
+
+
 
 
 
