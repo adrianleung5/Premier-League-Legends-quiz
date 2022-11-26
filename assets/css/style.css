@@ -399,6 +399,11 @@ html {
     font-size: 1.8rem;
 }
 
+.space {
+    margin-top: 7rem;
+}
+
+
 /* styles for results */
 
 .congrats,
