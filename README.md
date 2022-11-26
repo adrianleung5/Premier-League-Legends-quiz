@@ -58,7 +58,8 @@ The use of these fonts togetheir was inspired by [Elementor.com](https://element
 
 ![Top of homepage](assets/images/landing1.png "Top of Homepage")
 
-- The second section provides users 2 options to proceed on the homepage. This is the intructions button which provides users clarity on how to play the game and a let get started button to start the game.
+### Instructions and lets get started button
+- The second section provides users 2 options to proceed on the homepage. This is the intructions button which provides users clarity on how to play the game and a let get started button to start the game. The lets get starte button is also styled with a icon.
 
 ![Middle of homepage](assets/images/landing2.png "Middle of Homepage")
 
@@ -76,5 +77,23 @@ The use of these fonts togetheir was inspired by [Elementor.com](https://element
 - Users are unable to proceed without entering a username
 
  ![Bottom of homepage](assets/images/login.png "Bottom of Homepage")
+
+ ### Main Quiz Section
+  ![quiz-screen](README-images/quiz_question.png) 
+  The main quiz section  includes the username name along with a greeting , a timer, the question, 4 answer buttons and a next button
+
+   - Question
+    
+      The question is displayed at the top of the section above to question to ensure it is clearly visible to users.
+
+    - Timer
+    
+      The question is displayed at the top of the section above the question and will turn red when there is less than 15 seconds remaining. 
+      This will warn users time is running out
+
+
+
+
+
 
 
