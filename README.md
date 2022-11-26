@@ -24,7 +24,6 @@ Sports fans, football fans
 - As a first time visitor, I would like to be able to navigate through the website easily and without any problems.
 - As a first time visitor, I would like to understand how to play quiz and be able to easilu interputs its rules.
 
-
 ## Returning User Goals
 - As a returning visitor, I would like to see new and more questions.
 - As a returning visitorr, I would like to be able to leave feedback and suggestions for future questions for the quiz.
@@ -36,7 +35,7 @@ Sports fans, football fans
 - As a frequent user, I would like to sign up to be notified to any changes and updates to the quiz.
 
 ### Initial Concept
-To gain ideas for the general design of the quiz i gathered inspiration from fellow students in code insitutes project that was obtained from the peer review channel on slack. An example of a site i took inspiration from would be [Sean Johnstons quiz] (https://github.com/seanf316/P2-Movie-Buff-Or-Bluff)
+To gain ideas for the general design of the quiz i gathered inspiration from fellow students in code insitutes project that was obtained from the peer review channel on slack. An example of a site i took inspiration from would be [Sean Johnstons quiz](https://github.com/seanf316/P2-Movie-Buff-Or-Bluff)
 
 ### Wireframes
 The Wireframes were produced using [Balsamiq](https://balsamiq.com/). 
@@ -166,6 +165,7 @@ The site has a custom 404 page that tells the user that something went wrong and
 - [Unsplashed](https://unsplash.com/)
 - [Jshint](https://jshint.com/)
 - [freepngimg](https://freepngimg.com/png/32207-premier-league-file/icon)
+- Balsamiq](https://balsamiq.com/)
  
 ## Testing 
 
