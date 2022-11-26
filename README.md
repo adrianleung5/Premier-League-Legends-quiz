@@ -41,3 +41,7 @@ To gain ideas for the general design of the quiz i gathered inspiration from fel
 ### Wireframes
 The Wireframes were produced using [Balsamiq](https://balsamiq.com/). 
 The final site varies from the wireframes due to developments that occurred during the building process. 
+
+
+### Colour Scheme
+The color scheme used on this website was based on the hero image. [Coolors.co](https://coolors.co/) was used to identify the colours associated with the hero imahge. This identified a selction of 5 colours. The bigg 
