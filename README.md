@@ -207,9 +207,9 @@ The site has a custom 404 page that tells the user that something went wrong and
 
 The following git commands were used throughout development to push code to the remote repo:
 
-- ```git add <file>``` - This command was used to add the file(s) to the staging area before they are committed.
+- ```git add <file>``` - was used to add the file(s) to the staging area before they are committed.
 
-- ```git commit -m “commit message”``` - This command was used to commit changes to the local repository queue ready for the final step.
+- ```git commit -m “commit message”``` - was used to commit changes to the local repository queue ready for the final step.
   
 ## Deployment
 
