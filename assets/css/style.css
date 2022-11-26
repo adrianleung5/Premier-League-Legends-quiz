@@ -457,3 +457,50 @@ html {
         font-size: 6rem;
         margin-bottom: 2rem;
     }
+
+    /*Responsiveness*/
+  /*4K devices*/
+  @media only screen and (max-width:2560px)
+  {
+    .option {
+            min-width: 50rem;
+            margin: 1rem;
+        }
+         .result_content_title {
+                padding-top: unset;
+            }
+            #back_to_home {
+                 bottom:1.5rem;
+            }
+            .quiz_image {
+                    height: 35rem;
+            }
+  }
+   /*Laptop ultra large*/
+   @media only screen and (min-width:1440px) and (max-width:1675px)
+     {
+       .option {
+               min-width: 31rem;
+               margin: 1rem;
+           }
+            .result_content_title {
+                   padding-top: unset;
+               }
+               #back_to_home {
+                    bottom:1.5rem;
+               }
+     }
+/*Laptop Large*/
+@media only screen and (max-width:1024px)
+{
+  .option {
+          min-width: 25rem;
+          margin: 1rem;
+      }
+       .result_content_title {
+              padding-top: unset;
+          }
+          #back_to_home {
+               bottom:1.5rem;
+          }
+}
