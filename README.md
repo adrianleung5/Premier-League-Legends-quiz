@@ -108,17 +108,47 @@ The use of these fonts togetheir was inspired by [Elementor.com](https://element
 
     ![incorrect](assets/images/incorrect.png "incorrect")
 
+- Next Button 
+
+- The next button enables the user to move on to the next question. It is disabled until a user selects an answer.
+
+![next button](assets/images/next.png "next button")
+
 - Progress bar 
 
-- The progess fills as the user progresses through the quiz. This enables the user to know how much of the quiz is left
+  - The progess fills as the user progresses through the quiz. This enables the user to know how much of the quiz is left
 
 ![bar](assets/images/incorrect.png "bar")
 
 - Social media links
 
-- The social media links enable the user to vist the quizs social media pages to find out more information.
+  - The social media links enable the user to vist the quizs social media pages to find out more information.
 
 ![media](assets/images/media.png "media")
+
+ ### Results page 
+  - The results shows users their score from the quiz.
+  - Users are awarded a trophy depending on their score.
+  - The users can see their score as a percentage and receive a personalised messege depending on their score.
+  - When the user achieves a score above 75% they are awarded a gold trophy icon.
+
+ ![75% and more](assets/images/gold.png "75% and more")
+
+  - When the user achieves a score above 50%  but less than 75 %they are awarded a silver trophy icon.
+
+ ![50 to 75%](assets/images/silver.png "50% to 75%")
+ 
+  - When the user achieves a score above 50% they are awarded a bronze trophy icon.
+ 
+  - The user is then redirected back to the homepage.
+
+  ![less than 50%](assets/images/grey.png "less than 50%")
+
+  ### 404 page
+
+   -  The site has a custom 404 page that tells the user that something went wrong and also includes a home button to take the user back to the main quiz menu.
+   ![404 Page](README-images/404.png)  
+ 
 
 
 
