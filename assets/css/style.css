@@ -470,7 +470,7 @@ html {
     }
 
     #back_to_home {
-        bottom: 1.5rem;
+        bottom: 0.5rem;
     }
 
     .quiz_image {
@@ -506,7 +506,7 @@ html {
     }
 
     #back_to_home {
-        bottom: 1.5rem;
+        bottom: 0.5rem;
     }
 }
 
@@ -588,7 +588,7 @@ html {
 
     #username,
     #back_to_home {
-        bottom: 1.5rem;
+        bottom: 0.5rem;
     }
 
     #welcome,
