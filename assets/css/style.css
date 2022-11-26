@@ -4,7 +4,7 @@
 
 body {
     font-family: Roboto, Titillium;
-    background-color: #3d185b;
+    background-color: #3f185b;
     overflow-x: hidden;
     margin: 0px;
 }
@@ -95,7 +95,7 @@ html {
     font-size: 1.5rem;
     font-weight: 600;
     background-color: navajowhite;
-    color: #3d185b;
+    color: #3f185b;
     box-shadow: 0 5px 15px blueviolet;
 }
 
@@ -133,7 +133,7 @@ html {
     border: 3px solid whitesmoke;
     border-radius: 1rem;
     width: 40%;
-    background-color: #3d185b;
+    background-color: #3f185b;
 
 }
 
@@ -146,7 +146,7 @@ html {
     border: 3px solid whitesmoke;
     border-radius: 1rem;
     width: 70%;
-    background-color: #3d185b;
+    background-color: #3f185b;
 
 }
 
@@ -320,7 +320,7 @@ html {
     }
 
     .option-container:hover p {
-        background-color: #3d185b;
+        background-color: #3f185b;
         color: #f0ffff
     }
 
@@ -341,7 +341,7 @@ html {
         width: 75%;
         text-align: center;
         height: 10px;
-        background-color: #3d185b;
+        background-color: #3f185b;
         border-style: solid;
         margin: auto;
         border-radius: 0px 60px 0px;
