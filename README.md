@@ -169,6 +169,11 @@ The site has a custom 404 page that tells the user that something went wrong and
  
 ## Testing 
 
+### Functional testing
+- A manual test was performed to ensure all aspects of the site was fully functional and responsive.
+
+![test](assets/images/test.png "test")
+
 ### Responsiveness
 - I have tested this website works on al types of browswers. All pages were tested to ensure they were sponsive from small screens with up to 320px to large screens
 with uo to 2550px.
@@ -193,7 +198,6 @@ This achieved was thorugh Modzilla Firefoxes responsivness test feature
 - Ipphone 12/13 pro 
 - iPhone 11 pro
 - Samsung S 20 Ultra 11  
-
 
 ### Validator Testing 
 - No errors were shown when putting the code through the w3c html validator.
@@ -237,7 +241,10 @@ The following git commands were used throughout development to push code to the 
 - ```git add <file>``` - was used to add the file(s) to the staging area before they are committed.
 
 - ```git commit -m “commit message”``` - was used to commit changes to the local repository queue ready for the final step.
-  
+
+### Unresolved bugs
+- No unfixed bugs
+
 ## Deployment
 
 The site was deployed to Github pages
@@ -249,10 +256,10 @@ The site was deployed to Github pages
 
 ### To Fork the Repository
 - Go into Github and select the fork icon on the top right.
-- - When you have pressed the fork button you should now have a full copy of the repository.
+- When you have pressed the fork button you should now have a full copy of the repository.
 
 ### Create a local clone
-- Log into Github and go to the repository.Click on the ‘code’ tab beside the gitpod button.
+- Log into Github and go to the repository. Click on the ‘code’ tab beside the gitpod button.
 - Select the clipboard icon
 - In your IED open GitBash
 - Change the current working directory to the location you want the cloned directory to be made.
