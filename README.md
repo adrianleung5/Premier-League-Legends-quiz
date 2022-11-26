@@ -223,6 +223,16 @@ The site was deployed to Github pages
 - press enter and the local clone will be created.
 ![How to create local clone](assets/images/clone.png "How to create local clone")
 
+## Credits
+
+### Content
+
+### Media
+- 
+-  
+
+## Code 
+- 
 
 
 
