@@ -478,6 +478,14 @@ html {
     }
 }
 
+/*Laptop Large */
+@media only screen and (max-width: 1728px) {
+    .option {
+            min-width: 34rem;
+            margin: 1rem;
+        }
+    }
+    
 /*Laptop ultra large*/
 @media only screen and (min-width:1440px) and (max-width:1675px) {
     .option {
@@ -490,7 +498,7 @@ html {
     }
 
     #back_to_home {
-        bottom: 1.5rem;
+        bottom: 0.5rem;
     }
 }
 
