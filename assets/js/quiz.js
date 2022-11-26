@@ -242,7 +242,7 @@ function nextQuestion () {
 }
 
 // event listeners
-quizButton.addEventListener("click", hideModal)
+quizButton.addEventListener("click", hideModal);
 navigate.addEventListener("click", redirectPage);
 nextButton.addEventListener("click", nextQuestion);
 optionA.addEventListener("click", function () { checkAnswer('A') }) ;
