@@ -318,19 +318,17 @@ html {
     align-items: center;
 }
 
-/* Quiz */
 #welcome {
     color: whitesmoke;
     text-align: center;
     font-size: 1.8rem;
-    
+
 }
 
 #question {
     color: whitesmoke;
     text-align: center;
     font-size: 1.5rem;
-
 }
 
 #answer {
@@ -355,13 +353,11 @@ html {
 
 #next_button {
     width: 52%;
-    background-color: ;
 }
 
 .option-container:hover p {
     background-color: #3d185b;
     color: #f0ffff
-    
 }
 
 #quiz {
