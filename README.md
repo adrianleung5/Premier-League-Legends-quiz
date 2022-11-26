@@ -2,6 +2,8 @@
 
 The Premier League Quiz is a sports quiz site that aimed at football fans to test their knowledge and bring back memories of past football folklore. This Quiz will have 8 multiple choice question with a 90- second timer and leaderboard so you can compete with friends and family about your score.
 
+![Responsive](assets/images/responsive.png "Responsive")
+
 ## Key Project Goals
 This project has 2 main objectives: 
 - To showcase the development of my HTML and CSS skills as this is my second portfolio project.
@@ -33,3 +35,9 @@ Sports fans, football fans
 - As a frequent user, I would like to see if any questions suggested by other users were used as new questions.
 - As a frequent user, I would like to sign up to be notified to any changes and updates to the quiz.
 
+### Initial Concept
+To gain ideas for the general design of the quiz i gathered inspiration from fellow students in code insitutes project that was obtained from the peer review channel on slack. An example of a site i took inspiration from would be [Sean Johnstons quiz] (https://github.com/seanf316/P2-Movie-Buff-Or-Bluff)
+
+### Wireframes
+The Wireframes were produced using [Balsamiq](https://balsamiq.com/). 
+The final site varies from the wireframes due to developments that occurred during the building process. 
