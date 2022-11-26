@@ -61,7 +61,7 @@
             </div>
         </div>
         <!-- Sign up modal -->
-
+            <!-- Sign up modal was inspired from Sean Johnstons quiz which was retrieved from modal slack peer review page -->
         <div id="signup_box" class="modal-box">
             <div class="signup-modal-content">
                 <p class="close-signup">
@@ -80,6 +80,7 @@
         <div id="image">
             <div class="sign-up-style">
                 <h2 class="sign-up-title"> Please sign up for future quiz updates! </h2>
+                <!-- Preventing the signup form from its default behaviour was taken from stackoverflow.com -->
                 <form onsubmit="event.preventDefault(); showSignupModal()" class="sign-up-form" id="form">
                     <label class="signup-label"> Name </label>
                     <input id="name" type="text" class="input-name" placeholder="Name" required aria-label="name" aria-required="true">
