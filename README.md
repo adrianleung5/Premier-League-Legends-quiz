@@ -169,26 +169,53 @@ The site has a custom 404 page that tells the user that something went wrong and
  
 ## Testing 
 
+### Responsiveness
+- I have tested this website works on al types of browswers. All pages were tested to ensure they were sponsive from small screens with up to 320px to large screens
+with uo to 2550px.
+
+Steps to test:
+
+1. Open browser and navigate to [Premier League Ledgends Quiz](https://adrianleung5.github.io/Premier-League-Legends-quiz/)
+2. Open the developer tools (right click and inspect)
+3. Set to responsive and decrease width to 320px.
+4. Check the responsiveness at each page of the site.
+5. slowly increment and incease to width until you reach 2560px for 4k screen size
+
+Expected:
+
+Website is expected to be responsive on all screen sizes with no images are pixelated or stretched.
+No elements overlap and is correctly proportioned.
+
+Website was also opened on the following devices and no responsive issues were seen:
+This achieved was thorugh Modzilla Firefoxes responsivness test feature
+
+- Samsung galazy note 20
+- Ipphone 12/13 pro 
+- iPhone 11 pro
+- Samsung S 20 Ultra 11  
+
+
 ### Validator Testing 
 - No errors were shown when putting the code through the w3c html validator.
 - However a warning was recorded on the quiz.html page "Section lacks heading. Consider using h2-h6 elements to add identifying headings to all sections, or else use a div element instead for any cases where no heading is needed".
 
-- Index.html validation
+Index.html validation
+
 ![Index HTML valudator](assets/images/index.png " Index HTML validator")
 
 ![quiz HTML valudator](assets/images/quiz.png " quiz HTML validator")
 
 ![404 HTML](assets/images/index.png "404 HTML")
 
-- No errors were shown when putting the code through the jigsaw css validator.
+No errors were shown when putting the code through the jigsaw css validator.
 ![CSS validator](assets/images/css.png "CSS validator")
 
-- No errors were shown when putting the code through jshint javascript validator.
+No errors were shown when putting the code through jshint javascript validator.
 ![script.js](assets/images/script.png "script.js")
 ![quiz.js](assets/images/quizjs.png "quiz.js")
 ![result.js](assets/images/resultjs.png "result.js")
 
-- Colour contrast tests were carried out across the website and all came back without issue as shown by Ally Color Contrast Accessiblty 
+Colour contrast tests were carried out across the website and all came back without issue as shown by Ally Color Contrast Accessiblty 
  ![color checker](assets/images/a11y.png "color checker")
 
 ### Accessibility
