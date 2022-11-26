@@ -48,3 +48,7 @@ The color scheme used on this website was based on the hero image. [Coolors.co](
 ![coolor.co](assets/images/coolorsco.png "coolor.co")
 
 ### Typography
+Google fonts was used to import the fonts used for the purpose of this quiz [google fonts](https://fonts.google.com/).
+The use of these fonts togetheir was inspired by [Elementor.com](https://elementor.com/blog/font-pairing/#). This font provided a sharp and professional look for the quiz.
+
+## Features
