@@ -149,8 +149,9 @@ The use of these fonts togetheir was inspired by [Elementor.com](https://element
 
   ### 404 page
 
-   - The site has a custom 404 page that tells the user that something went wrong and also includes a home button to take the user back to the main quiz menu.
-   ![404 Page](assets/images/404.png "404 page")
+The site has a custom 404 page that tells the user that something went wrong and also includes a home button to take the user back to the main quiz menu.
+
+![404 Page](assets/images/404.png "404 page")
 
    ## Technolohgies used
 - [HTML5](https://html.spec.whatwg.org/)
@@ -163,7 +164,7 @@ The use of these fonts togetheir was inspired by [Elementor.com](https://element
 - [Am i responsive](https://ui.dev/amiresponsive)
 - [Coolors.co](https://coolors.co/)
 - [Unsplashed](https://unsplash.com/)
-- [Jshint] (https://jshint.com/)
+- [Jshint](https://jshint.com/)
 - [freepngimg](https://freepngimg.com/png/32207-premier-league-file/icon)
  
 ## Testing 
@@ -201,7 +202,15 @@ The use of these fonts togetheir was inspired by [Elementor.com](https://element
   Lighthouse mobile
   
   ![mobile](assets/images/mobile.png "mobile")
-   
+
+## Version control
+
+The following git commands were used throughout development to push code to the remote repo:
+
+- ```git add <file>``` - This command was used to add the file(s) to the staging area before they are committed.
+
+- ```git commit -m “commit message”``` - This command was used to commit changes to the local repository queue ready for the final step.
+  
 ## Deployment
 
 The site was deployed to Github pages
@@ -209,9 +218,11 @@ The site was deployed to Github pages
 - Select pages tab on the left side of the page under code and automation.
 - Under source, select "deploy from a branch" and then click ‘save’.
 - Page will refresh, Return to the repository page and you will a "github-pages active" icon under enviornment on the right side of the page.
+- A live link can be found here 
 
 ### To Fork the Repository
 - Go into Github and select the fork icon on the top right.
+- - When you have pressed the fork button you should now have a full copy of the repository.
 
 ### Create a local clone
 - Log into Github and go to the repository.Click on the ‘code’ tab beside the gitpod button.
@@ -226,6 +237,9 @@ The site was deployed to Github pages
 ### Content
 - [Sean Johnstons quiz](https://github.com/seanf316/P2-Movie-Buff-Or-Bluff) The quiz was inspired by 
 - [Gareth McGirr](https://github.com/Gareth-McGirr/tacos-travels) was used for inspiration for the README.md 
+- [Font Awesome ](https://fontawesome.com/) was used for the fonts Lato and Roboto in the quiz
+- [Codepen](https://codepen.io/kanishkkunal/pen/obGojO) was used to to design the buttons in the quiz.
+- [Sean Johnstons quiz](https://github.com/seanf316/P2-Movie-Buff-Or-Bluff) inspired the design for the modal for the quiz.
 
 ### Media 
 - [Unsplashed](https://unsplash.com/) and google images was used for the images on the homepage
