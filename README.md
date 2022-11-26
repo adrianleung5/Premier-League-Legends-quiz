@@ -176,7 +176,20 @@ The use of these fonts togetheir was inspired by [Elementor.com](https://element
 - Colour contrast tests were carried out across the website and all came back without issue as shown by Ally Color Contrast Accessiblty 
  ![color checker](assets/images/a11y.png "color checker")
 
+### Accessibility
+
+- The site received high scores on both mobile and desktop when put through lighthouse testing.
+
+  - Lighthouse desktop
+
+  ![desktop](assets/images/desktop.png "desktop")
+
+  - Lighthouse mobile
+  
+  ![mobile](assets/images/mobile.png "mobile")
+   
 ## Deployment
+
 The site was deployed to Github pages
 - Navitgate to the settings tab of the Github repository via [Github repository](https://github.com/adrianleung5/Leung-Wellness).
 - Select pages tab on the left side of the page under code and automation.
