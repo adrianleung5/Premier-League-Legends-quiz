@@ -149,8 +149,21 @@ The use of these fonts togetheir was inspired by [Elementor.com](https://element
 
   ### 404 page
 
-   -  The site has a custom 404 page that tells the user that something went wrong and also includes a home button to take the user back to the main quiz menu.
+   - The site has a custom 404 page that tells the user that something went wrong and also includes a home button to take the user back to the main quiz menu.
    ![404 Page](assets/images/404.png "404 page")
+
+   ## Technolohgies used
+- [HTML5](https://html.spec.whatwg.org/)
+- [CSS](https://www.w3.org/Style/CSS/Overview.en.html)
+- [Gitpod](https://www.gitpod.io/)
+- [Github](https://github.com/)
+- [Google Fonts](https://github.com/TashaTJ/pawsome-portraits-v4#technologies-used)
+- [Font Awesome ](https://fontawesome.com/)
+- [Google chrome dev tools](https://developer.chrome.com/docs/devtools/)
+- [Am i responsive](https://ui.dev/amiresponsive)
+- [Coolors.co](https://coolors.co/)
+- [Unsplashed](https://unsplash.com/)
+- [Jshint] (https://jshint.com/)
  
 ## Testing 
 
@@ -180,11 +193,11 @@ The use of these fonts togetheir was inspired by [Elementor.com](https://element
 
 - The site received high scores on both mobile and desktop when put through lighthouse testing.
 
-  - Lighthouse desktop
+  Lighthouse desktop
 
   ![desktop](assets/images/desktop.png "desktop")
 
-  - Lighthouse mobile
+  Lighthouse mobile
   
   ![mobile](assets/images/mobile.png "mobile")
    
