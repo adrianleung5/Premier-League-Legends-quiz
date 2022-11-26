@@ -1,9 +1,9 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&family=Titillium+Web:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato&family=Roboto&display=swap');
 
 /* styles added at root level */
 
 body {
-    font-family: Roboto, Titillium;
+    font-family: Lato, Roboto;
     background-color: #3f185b;
     overflow-x: hidden;
     margin: 0px;
