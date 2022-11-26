@@ -52,5 +52,18 @@ Google fonts was used to import the fonts used for the purpose of this quiz [goo
 The use of these fonts togetheir was inspired by [Elementor.com](https://elementor.com/blog/font-pairing/#). This font provided a sharp and professional look for the quiz.
 
 ## Features
-*Navigation
-- 
+### Homepage  
+  [
+The homepage is the landing page which introduces the user to the website.The homepage is split into 3 sections. Firstly,at the top their is a clear title stating that the purpose of the website is a quiz. This section also contains a hero image that zooms to when a user lands on the page to set a playful tone for the quiz. 
+
+![Top of homepage](assets/images/landing1.png "Top of Homepage")
+
+There are 2 options for the user to proceed on the homepage. This is the intructions button which provides users clarity on how to play the game and a let get started button to start the game.
+
+![Middle of homepage](assets/images/landing2.png "Middle of Homepage")
+
+ At the bottom of the landing page there is a sign up form. This enablses users to enter their information to subscripe for future quiz updates as well as the opporunity to provide some feedback on the quiz.
+
+ ![Bottom of homepage](assets/images/landing3.png "Bottom of Homepage")
+
+
