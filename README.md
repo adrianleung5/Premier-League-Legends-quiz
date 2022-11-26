@@ -156,15 +156,23 @@ The use of these fonts togetheir was inspired by [Elementor.com](https://element
 
 ### Validator Testing 
 - No errors were shown when putting the code through the w3c html validator.
+- However a warning was recorded on the quiz.html page "Section lacks heading. Consider using h2-h6 elements to add identifying headings to all sections, or else use a div element instead for any cases where no heading is needed".
 
-   - Index.html validation
-   ![HTML valudator](assets/images/404.png "HTML validator")
- 
-  
-   - 404 Page validation
+- Index.html validation
+![Index HTML valudator](assets/images/index.png " Index HTML validator")
+
+![quiz HTML valudator](assets/images/quiz.png " quiz HTML validator")
+
+![404 HTML](assets/images/index.png "404 HTML")
     
-
 - No errors were shown when putting the code through the jigsaw css validator.
+![CSS validator](assets/images/css.png "CSS validator")
+
+- No errors were shown when putting the code through jshint javascript validator.
+![script.js](assets/images/script.png "script.js")
+![quiz.js](assets/images/quizjs.png "quiz.js")
+![result.js](assets/images/resultjs.png "result.js")
+
 
 
 
