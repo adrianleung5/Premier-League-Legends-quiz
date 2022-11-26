@@ -42,6 +42,9 @@ To gain ideas for the general design of the quiz i gathered inspiration from fel
 The Wireframes were produced using [Balsamiq](https://balsamiq.com/). 
 The final site varies from the wireframes due to developments that occurred during the building process. 
 
+### Features Left to Implement
+As a future enhancement, I would like to add a scoreboard tracker into the quiz.
+
 ### Colour Scheme
 The color scheme used on this website was based on the hero image. [Coolors.co](https://coolors.co/) was used to identify the colours associated with the hero imahge. This identified a selction of 5 colours. The quiz is predominantly based on only of these colours Russian Violet. The color white was chosen to provide a nice contrast to the site and was used as the main colour for the text of the site. Ultraviolet was as the box shadow effect around the buttons of the site.
 
@@ -147,8 +150,13 @@ The use of these fonts togetheir was inspired by [Elementor.com](https://element
   ### 404 page
 
    -  The site has a custom 404 page that tells the user that something went wrong and also includes a home button to take the user back to the main quiz menu.
-   ![404 Page](README-images/404.png)  
+   ![404 Page](assets/images/404.png "404 page")
  
+## Testing 
+
+### Validator Testing 
+- HTML
+  - No errors were returned when passing through the official [W3C validator](https://validator.w3.org)
 
 
 

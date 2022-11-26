@@ -19,7 +19,7 @@ html {
 .title {
     text-decoration: none;
     color: whitesmoke;
-    font-family: Roboto, Titillium Web;
+    font-family: Lato, Roboto;
     font-size: 2.5rem;
 }
 
@@ -41,7 +41,7 @@ html {
     font-size: 2rem;
 }
 
-.homepage_paragraph, 
+.homepage_paragraph,
 .not_found_paragraph {
     display: flex;
     justify-content: center;
@@ -63,6 +63,7 @@ html {
     from {
         transform: scale(1);
     }
+
     to {
         transform: scale(1.1);
     }
@@ -243,7 +244,6 @@ html {
     color: whitesmoke;
     padding: 1rem;
     border: 3px solid whitesmoke;
-    border: radius;
     border-radius: 1rem;
     width: 75%;
     margin: 15% auto;
@@ -280,318 +280,347 @@ html {
     padding: 0.5rem 1rem;
     margin: 0rem auto 1rem;
 }
-    /* styles for quiz page*/
 
-    #welcome {
-        color: whitesmoke;
-        text-align: center;
-        font-size: 1.8rem;
+/* styles for quiz page*/
 
-    }
+#welcome {
+    color: whitesmoke;
+    text-align: center;
+    font-size: 1.8rem;
 
-    #question {
-        color: whitesmoke;
-        text-align: center;
-        font-size: 1.5rem;
-    }
+}
 
-    #answer {
-        display: flex;
-        flex-direction: row;
-        text-align: center;
-        justify-content: center;
-        flex-wrap: wrap;
-    }
+#question {
+    color: whitesmoke;
+    text-align: center;
+    font-size: 1.5rem;
+}
 
+#answer {
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.option {
+    text-align: center;
+    cursor: pointer;
+    min-width: 35rem;
+    border-radius: 1rem;
+    background-color: whitesmoke;
+    border-style: solid;
+    padding: 1rem;
+    margin-bottom: 2rem;
+    margin-left: 2.5rem;
+}
+
+#next_button {
+    width: 52%;
+}
+
+.option-container:hover p {
+    background-color: #3f185b;
+    color: #f0ffff
+}
+
+#quiz {
+    display: none;
+    position: relative;
+
+}
+
+/* Progress bar */
+#progress_bar {
+    padding: 2rem;
+}
+
+.bar {
+    width: 75%;
+    text-align: center;
+    height: 10px;
+    color: whitesmoke;
+    border-style: solid;
+    margin: auto;
+    border-radius: 1rem;
+}
+
+.bar div {
+    height: 100%;
+    border-radius: 1rem;
+    background-color: whitesmoke;
+    transition: all 200ms;
+}
+
+#progress_number {
+    text-align: center;
+    color: whitesmoke;
+    font-size: 1.8rem;
+}
+
+.space {
+    margin-top: 7rem;
+}
+
+
+/* styles for results */
+
+.congrats,
+.timeout {
+    font-size: 10rem;
+    text-align: center;
+}
+
+.fail {
+    text-align: center;
+    color: red;
+    font-size: 2.5rem;
+    font-weight: bolder;
+
+}
+
+.average {
+    text-align: center;
+    color: green;
+    font-size: 2.5rem;
+    font-weight: bolder;
+
+}
+
+.excellent {
+    text-align: center;
+    color: gold;
+    font-size: 2.5rem;
+    font-weight: bolder;
+
+}
+
+#results_note {
+    text-align: center;
+    color: whitesmoke;
+    font-size: 1.8rem;
+}
+
+#back_to_home {
+    align-items: center;
+    margin: auto;
+    position: relative;
+    display: flex;
+}
+
+/* Icons */
+.fa {
+    background-color: unset;
+}
+
+/* footer style*/
+.contact-us {
+    font-size: 2rem;
+    text-align: center;
+    padding-bottom: 2rem;
+}
+
+.contact-us a {
+    color: whitesmoke;
+    margin: 1rem;
+}
+
+#image {
+    background-image: url("../images/pitch.png");
+    background-size: 100% 100%;
+}
+
+.footer-text {
+    color: whitesmoke;
+    text-align: center;
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+/* 404 error page  */
+
+.button_section {
+    text-align: center;
+    padding: 2rem;
+    padding: 2rem 0rem 4rem 0rem;
+}
+
+.button_section a {
+    text-decoration: none;
+}
+
+.content_title_404 {
+    color: whitesmoke;
+    text-align: center;
+    font-size: 6rem;
+    margin-bottom: 2rem;
+}
+
+/*Responsiveness*/
+/*4K devices*/
+@media only screen and (max-width:2560px) {
     .option {
-        text-align: center;
-        cursor: pointer;
-        min-width: 35rem;
-        border-radius: 1rem;
-        background-color: whitesmoke;
-        border-style: solid;
-        padding: 1rem;
-        margin-bottom: 2rem;
-        margin-left: 2.5rem;
-    }
-
-    #next_button {
-        width: 52%;
-    }
-
-    .option-container:hover p {
-        background-color: #3f185b;
-        color: #f0ffff
-    }
-
-    #quiz {
-        display: none;
-        position: relative;
-
-    }
-
-    /* Progress bar */
-    #progress_bar {
-        padding: 2rem;
-
-
-    }
-
-    .bar {
-        width: 75%;
-        text-align: center;
-        height: 10px;
-        color: whitesmoke;
-        border-style: solid;
-        margin:auto;
-        border-radius: 1rem;
-    }
-
-    .bar div {
-        height: 100%;
-        border-radius: 1 rem;
-        background-color: whitesmoke;
-        transition: all 200ms;
-    }
-
-    #progress_number {
-        text-align: center;
-        color: whitesmoke;
-        font-size: 1.8rem;
-    }
-
-    .space {
-        margin-top: 7rem;
-    }
-
-
-    /* styles for results */
-
-    .congrats,
-    .timeout {
-        font-size: 10rem;
-        text-align: center;
-    }
-
-    .fail {
-        text-align: center;
-        color: red;
-        font-size: 2.5rem;
-        font-weight: bolder;
-
-    }
-
-    .average {
-        text-align: center;
-        color: green;
-        font-size: 2.5rem;
-        font-weight: bolder;
-
-    }
-
-    .excellent {
-        text-align: center;
-        color: gold;
-        font-size: 2.5rem;
-        font-weight: bolder;
-
-    }
-
-    #results_note {
-        text-align: center;
-        color: whitesmoke;
-        font-size: 1.8rem;
-    }
-
-    #back_to_home {
-        align-items: center;
-        margin: auto;
-        position: relative;
-        display: flex;
-    }
-
-    /* Icons */
-    .fa {
-        background-color: unset;
-    }
-
-    /* footer style*/
-    .contact-us {
-        font-size: 2rem;
-        text-align: center;
-        padding-bottom: 2rem;
-    }
-
-    .contact-us a {
-        color: whitesmoke;
+        min-width: 50rem;
         margin: 1rem;
     }
 
-    #image {
-        background-image: url("../images/pitch.png");
-        background-size: 100% 100%;
+    .result_content_title {
+        padding-top: unset;
     }
 
-    .footer-text {
-        color: whitesmoke;
-        text-align: center;
-        font-size: 2rem;
-        font-weight: bold;
+    #back_to_home {
+        bottom: 1.5rem;
     }
 
-    /* 404 error page  */
-
-    .button_section {
-        text-align: center;
-        padding: 2rem;
-        padding: 2rem 0rem 4rem 0rem;
+    .quiz_image {
+        height: 35rem;
     }
-
-    .button_section a {
-        text-decoration: none;
-    }
-
-    .content_title_404 {
-        color: whitesmoke;
-        text-align: center;
-        font-size: 6rem;
-        margin-bottom: 2rem;
-    }
-
-    /*Responsiveness*/
-  /*4K devices*/
-  @media only screen and (max-width:2560px)
-  {
-    .option {
-            min-width: 50rem;
-            margin: 1rem;
-        }
-         .result_content_title {
-                padding-top: unset;
-            }
-            #back_to_home {
-                 bottom:1.5rem;
-            }
-            .quiz_image {
-                    height: 35rem;
-            }
-  }
-   /*Laptop ultra large*/
-   @media only screen and (min-width:1440px) and (max-width:1675px)
-     {
-       .option {
-               min-width: 31rem;
-               margin: 1rem;
-           }
-            .result_content_title {
-                   padding-top: unset;
-               }
-               #back_to_home {
-                    bottom:1.5rem;
-               }
-     }
-/*Laptop Large*/
-@media only screen and (max-width:1024px)
-{
-  .option {
-          min-width: 25rem;
-          margin: 1rem;
-      }
-       .result_content_title {
-              padding-top: unset;
-          }
-          #back_to_home {
-               bottom:1.5rem;
-          }
 }
 
- /*Tablet and above*/
- @media only screen and (max-width:768px)
- {
-   .option {
-           min-width: 19rem;
-           margin: 1rem;
-       }
-          .quiz_image {
-                            height: 23rem;
-                    }
- }
-  /*Small Mobiles*/
- @media screen and (max-width: 425px)
- {
-     .title {
+/*Laptop ultra large*/
+@media only screen and (min-width:1440px) and (max-width:1675px) {
+    .option {
+        min-width: 31rem;
+        margin: 1rem;
+    }
+
+    .result_content_title {
+        padding-top: unset;
+    }
+
+    #back_to_home {
+        bottom: 1.5rem;
+    }
+}
+
+/*Laptop Large*/
+@media only screen and (max-width:1024px) {
+    .option {
+        min-width: 25rem;
+        margin: 1rem;
+    }
+
+    .result_content_title {
+        padding-top: unset;
+    }
+
+    #back_to_home {
+        bottom: 1.5rem;
+    }
+}
+
+/*Tablet and above*/
+@media only screen and (max-width:768px) {
+    .option {
+        min-width: 19rem;
+        margin: 1rem;
+    }
+
+    .quiz_image {
+        height: 23rem;
+    }
+}
+
+/*Small Mobiles*/
+@media screen and (max-width: 425px) {
+    .title {
         font-size: 1.5rem
-     }
-     .space {
-         margin-top: 5rem;
-     }
-     #hero_image {
+    }
+
+    .space {
+        margin-top: 5rem;
+    }
+
+    #hero_image {
         padding: unset;
         margin-bottom: 1rem;
         font-size: unset;
     }
+
     .quiz_image {
         height: 12rem;
     }
-     .homepage_content_title, .sign-up-title, .footer-text {
-        font-size:unset;
+
+    .homepage_content_title,
+    .sign-up-title,
+    .footer-text {
+        font-size: unset;
     }
+
     .homepage_paragraph {
         font-size: unset;
         padding-left: 0.5rem;
         padding-right: 0.5rem;
     }
-    .button,  .contact-us {
+
+    .button,
+    .contact-us {
         font-size: 1rem;
     }
+
     .button_area {
         width: unset;
         flex-direction: column;
         padding: 1rem;
         gap: 1rem;
     }
+
     .modal-content {
         width: 75%;
         padding: 1rem;
     }
+
     .modal-title {
         font-size: 1.3rem;
     }
+
     #quiz_button {
         width: unset;
         font-size: unset;
     }
+
     .username-text-input {
-       width: unset;
-       font-size: unset;
-       line-height: unset;
-     }
-     #username, #back_to_home {
-         bottom: 1.5rem;
+        width: unset;
+        font-size: unset;
+        line-height: unset;
     }
-    #welcome, #question {
+
+    #username,
+    #back_to_home {
+        bottom: 1.5rem;
+    }
+
+    #welcome,
+    #question {
         font-size: 0.75rem;
         font-weight: 600;
         padding-left: 0.3rem;
         padding-right: 0.3rem;
     }
+
     .option {
         min-width: 15rem;
         margin-bottom: unset;
     }
+
     #next_button {
         margin-top: 1rem;
         width: 83%;
     }
+
     .bar {
         width: 100%
     }
-    #progress_number, #results_note {
+
+    #progress_number,
+    #results_note {
         font-size: unset;
         padding-right: 1rem;
-            padding-left: 1rem;
+        padding-left: 1rem;
     }
+
     .result_content_title {
         padding-top: unset;
     }
- }
+}

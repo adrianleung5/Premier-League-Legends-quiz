@@ -2,24 +2,24 @@
 
 document.addEventListener("DOMContentLoaded", function () {
     getQuizQuestions();
-})
+});
 
 /* store the variables by getting their respective Ids */
 
 const welcome = document.getElementById("welcome");
 const checkInput = document.getElementById("quiz_username");
-const quizButton = document.getElementById("quiz_button")
+const quizButton = document.getElementById("quiz_button");
 const modalBox = document.getElementById("username");
 const nextButton =document.getElementById("next_button");
 const quizSection =document.getElementById("quiz") ; 
 const navigate = document.getElementById("back_to_home");
-const timeoutBox = document.getElementById("timeout_box")
+const timeoutBox = document.getElementById("timeout_box");
 
 const question = document.getElementById("question");
 const optionA = document.getElementById("optionA");
 const optionB = document.getElementById("optionB");
 const optionC = document.getElementById("optionC");
-const optionD = document.getElementById("optionD")
+const optionD = document.getElementById("optionD");
 
 /**
  * This quiz contains a total of 11 questions
@@ -124,11 +124,11 @@ const allQuizQuestions = [
         correctAnswer: "D"
     }
 
-]
+];
 /* Shufling the original questions to display random questions 
 * each time the quiz is started */
 const shuffleArray = allQuizQuestions.sort(()=> 0.5 - Math.random());
-const quizQuestions = shuffleArray.slice(0,8)
+const quizQuestions = shuffleArray.slice(0,8);
 let currentQuestion = 0;
 let counter = 75;
 
@@ -156,7 +156,7 @@ function showTimeoutModal() {
  * left to finish the quiz
 */
 function startQuiz () {
-    document.getElementById("progress-bar").setAttribute("style", `width:${0}%`)
+    document.getElementById("progress-bar").setAttribute("style", `width:${0}%`);
     quizSection.style.display = "block";
     const interval = setInterval(function () {
         welcome.innerHTML = `Hello ${checkInput.value} you have ${counter} seconds left!`;
@@ -170,13 +170,13 @@ function startQuiz () {
             /* when the user runs out of time display timeout modal */
             showTimeoutModal();
         }
-    }, 1000)
+    }, 1000);
 
 }
 
 // get the questions and options
 function getQuizQuestions () {
-    document.getElementById("progress_number").innerHTML=`Question ${currentQuestion+1} of 8 `
+    document.getElementById("progress_number").innerHTML=`Question ${currentQuestion+1} of 8 `;
     const questions = quizQuestions [currentQuestion];
     question.innerHTML = "<h1>" + questions.question +" </h1>";
     optionA.innerHTML = "<p class = 'option' id = 'A'>" + questions.optionA + "</p>" ; 
@@ -185,7 +185,7 @@ function getQuizQuestions () {
     optionD.innerHTML = "<p class = 'option' id = 'D'>" + questions.optionD + "</p>" ;
 
     if (currentQuestion === 7) {
-        document.querySelector("#next_button").innerHTML="View Results"
+        document.querySelector("#next_button").innerHTML="View Results";
     } 
 
     optionA.style.pointerEvents="auto";
@@ -201,7 +201,7 @@ let totalCorrectAnswer = 0;
 function checkAnswer (option) {
     const selectedAnswer = document.getElementById(option);
     const questions = quizQuestions[currentQuestion];
-    const correctAnswer = document.getElementById (questions.correctAnswer) 
+    const correctAnswer = document.getElementById (questions.correctAnswer);
     if (selectedAnswer.innerText===correctAnswer.innerText) {
         selectedAnswer.style.backgroundColor="green"; 
         totalCorrectAnswer++;
@@ -218,7 +218,7 @@ function checkAnswer (option) {
     nextButton.removeAttribute("disabled");
     currentQuestion++; // incrementing to next question
     const progress= ((currentQuestion)/8)*100;
-    document.getElementById("progress-bar").setAttribute("style", `width:${progress}%`)
+    document.getElementById("progress-bar").setAttribute("style", `width:${progress}%`);
 }
 
 function nextQuestion () {
@@ -238,17 +238,17 @@ function nextQuestion () {
     localStorage.setItem("username", username);
     // redirect user to results page
 
-    window.location = "results.html"
+    window.location = "results.html";
 }
 
 // event listeners
 quizButton.addEventListener("click", hideModal);
 navigate.addEventListener("click", redirectPage);
 nextButton.addEventListener("click", nextQuestion);
-optionA.addEventListener("click", function () { checkAnswer('A') }) ;
-optionB.addEventListener("click", function () { checkAnswer('B') });
-optionC.addEventListener("click", function () { checkAnswer('C') });
-optionD.addEventListener("click", function () { checkAnswer('D') });
+optionA.addEventListener("click", function () { checkAnswer('A'); });
+optionB.addEventListener("click", function () { checkAnswer('B'); });
+optionC.addEventListener("click", function () { checkAnswer('C'); });
+optionD.addEventListener("click", function () { checkAnswer('D'); });
 
 
 
