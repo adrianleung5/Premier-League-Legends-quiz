@@ -38,8 +38,8 @@
         <!-- Buttons -->
 
         <div class="button_area">
-            <button class="button" id="instruction_btn"> Instructions </button>
-            <button class="button" id="lets_start_button"> Lets get started <i class="fa fa-futbol-o"> </i> </button>
+            <button class="button" id="instruction_btn" aria-label = "instructions"> Instructions </button>
+            <button class="button" id="lets_start_button" aria-label = "start button"> Lets get started <i class="fa fa-futbol-o"> </i> </button>
 
         </div>
 
@@ -83,26 +83,27 @@
                 <h2 class="sign-up-title"> Please sign up for future quiz updates! </h2>
                 <form onsubmit="event.preventDefault(); showSignupModal()" class="sign-up-form" id="form">
                     <label class="signup-label"> Name </label>
-                    <input id="name" type="text" class="input-name" placeholder="First name" required>
+                    <input id="name" type="text" class="input-name" placeholder="Name" required aria-label="name" aria-required="true">
                     <label class="signup-label"> Email </label>
-                    <input id="email" type="email" class="input-name" placeholder="something@gmail.com" required>
+                    <input id="email" type="email" class="input-name" placeholder="something@gmail.com" required aria-label= "email" aria-required="true"> 
                     <label class="signup-label"> Feedback </label>
                     <textarea id="feedback" class="feedback-text"
-                        placeholder="Please suggest future questions and any recommendations you would like to see on the quiz"></textarea>
+                        placeholder="Please suggest future questions and any recommendations you would like to see on the quiz"
+                        required aria-label="feedback" aria-required ="true"></textarea>
                     <button class="button" type="submit"> Register </button>
                 </form>
                 <footer>
                     <p class="footer-text"> Follow us on </p>
                     <div class="contact-us">
-                        <a class="social-button facebook" href="https://www.facebook.com/" target="_blank"><i
+                        <a class="social-button facebook" href="https://www.facebook.com/" target="_blank" aria-label="facebook"><i
                                 class="fa fa-facebook-square"></i></a>
-                        <a class="social-button twitter" href="https://www.twitter.com/" target="_blank"><i
+                        <a class="social-button twitter" href="https://www.twitter.com/" target="_blank" aria-label="twitter"><i
                                 class="fa fa-twitter"></i></a>
-                        <a class="social-button linkedin" href="https://www.linkedin.com/" target="_blank"><i
+                        <a class="social-button linkedin" href="https://www.linkedin.com/" target="_blank" aria-label="linkedin"><i
                                 class="fa fa-linkedin"></i></a>
-                        <a class="social-button youtube" href="https://www.youtube.com/" target="_blank"><i
+                        <a class="social-button youtube" href="https://www.youtube.com/" target="_blank" aria-label="youtube"><i
                                 class="fa fa-youtube-play"></i></a>
-                        <a class="social-button instagram" href="https://www.instagram.com/" target="_blank"><i
+                        <a class="social-button instagram" href="https://www.instagram.com/" target="_blank" aria-label="instagram"><i
                                 class="fa fa-instagram"></i></a>
                     </div>
                 </footer>

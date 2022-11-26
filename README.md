@@ -155,8 +155,17 @@ The use of these fonts togetheir was inspired by [Elementor.com](https://element
 ## Testing 
 
 ### Validator Testing 
-- HTML
-  - No errors were returned when passing through the official [W3C validator](https://validator.w3.org)
+- No errors were shown when putting the code through the w3c html validator.
+
+   - Index.html validation
+    ![w3c-validation](README-images/w3c.png)
+
+   - 404 Page validation
+    ![404-validation](README-images/404w3c.png) 
+
+- No errors were shown when putting the code through the jigsaw css validator.
+![jigsaw-validation](README-images/jigsaw.png)
+
 
 
 

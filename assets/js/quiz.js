@@ -174,7 +174,7 @@ function startQuiz () {
 
 }
 
-// get the questions and options
+/* This function will display questions and options to the user */
 function getQuizQuestions () {
     document.getElementById("progress_number").innerHTML=`Question ${currentQuestion+1} of 8 `;
     const questions = quizQuestions [currentQuestion];
@@ -184,43 +184,60 @@ function getQuizQuestions () {
     optionC.innerHTML = "<p class = 'option' id = 'C'>" + questions.optionC + "</p>" ;
     optionD.innerHTML = "<p class = 'option' id = 'D'>" + questions.optionD + "</p>" ;
 
+    /* When the user reaches the end of the question change the button to view results */
     if (currentQuestion === 7) {
         document.querySelector("#next_button").innerHTML="View Results";
     } 
 
+    /*  enable the user to select the answers */
     optionA.style.pointerEvents="auto";
     optionB.style.pointerEvents="auto";
     optionC.style.pointerEvents="auto";
     optionD.style.pointerEvents="auto";
     nextButton.setAttribute("disabled" ,"true");
 
-   
 } 
 
+/* This variable stores the number of correct answers by the user */
 let totalCorrectAnswer = 0;
+
+/** This function will check the answer and updates the progress bar
+ * @param {string} option - This stores the option selected by the user
+ **/
 function checkAnswer (option) {
     const selectedAnswer = document.getElementById(option);
     const questions = quizQuestions[currentQuestion];
     const correctAnswer = document.getElementById (questions.correctAnswer);
+
+    /* If the selected option is correct change the background colour to green */
     if (selectedAnswer.innerText===correctAnswer.innerText) {
         selectedAnswer.style.backgroundColor="green"; 
         totalCorrectAnswer++;
     }
+     /**  If the selected option is incorrect change the background colour to red 
+      * and display the correct answerr background as green
+     */
     else {
         selectedAnswer.style.backgroundColor="red";
         correctAnswer.style.background="green";
-    
     }
+
+    /*  disable the users from selecting answers if answer is already selected */
     optionA.style.pointerEvents="none";
     optionB.style.pointerEvents="none";
     optionC.style.pointerEvents="none";
     optionD.style.pointerEvents="none";
     nextButton.removeAttribute("disabled");
-    currentQuestion++; // incrementing to next question
+
+    /* incrementing this variable to fetch the next question */
+    currentQuestion++; 
+
+    /* update the progress of the user based on the number of questions answered */
     const progress= ((currentQuestion)/8)*100;
     document.getElementById("progress-bar").setAttribute("style", `width:${progress}%`);
 }
 
+/* This function will fetch the next questions or gets the result if user reaches end of the game */
 function nextQuestion () {
     if (currentQuestion===8) {
         getResult(); 
@@ -230,18 +247,21 @@ function nextQuestion () {
     }
 }
 
+
+ /* This function gathers the result and stores it into local storage to be accessed in results page*/    
  function getResult () {
     const result = (totalCorrectAnswer/8) *100;
-    // store the variable result which can be accessed by another js file
+    /* store the variable result which can be accessed by another js file */
     localStorage.setItem("result",result.toString());
+
     const username = checkInput.value;
     localStorage.setItem("username", username);
-    // redirect user to results page
 
+    /* redirect user to results page */
     window.location = "results.html";
 }
 
-// event listeners
+/* event listeners of quiz page */
 quizButton.addEventListener("click", hideModal);
 navigate.addEventListener("click", redirectPage);
 nextButton.addEventListener("click", nextQuestion);
