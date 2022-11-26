@@ -208,11 +208,9 @@ The site was deployed to Github pages
 - Select pages tab on the left side of the page under code and automation.
 - Under source, select "deploy from a branch" and then click ‘save’.
 - Page will refresh, Return to the repository page and you will a "github-pages active" icon under enviornment on the right side of the page.
-![How to deploy](assets/images/deployment.png "How to deploy")
 
 ### To Fork the Repository
 - Go into Github and select the fork icon on the top right.
-![How to create Fork](assets/images/fork.png "How to create Fork")
 
 ### Create a local clone
 - Log into Github and go to the repository.Click on the ‘code’ tab beside the gitpod button.
@@ -221,7 +219,7 @@ The site was deployed to Github pages
 - Change the current working directory to the location you want the cloned directory to be made.
 - Type ‘git clone’ and then paste the URL copied from GitHub.
 - press enter and the local clone will be created.
-![How to create local clone](assets/images/clone.png "How to create local clone")
+
 
 ## Credits
 
