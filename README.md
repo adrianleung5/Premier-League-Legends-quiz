@@ -1,6 +1,6 @@
 # Portfolio Project 2 - Javascript
 
-The Premier League Quiz is a sports quiz site that aimed at football fans to test their knowledge and bring back memories of past football folklore. This Quiz will have 8 multiple choice question with a 90- second timer and leaderboard so you can compete with friends and family about your score.
+The Premier League Quiz is a sports quiz site that aimed at football fans to test their knowledge and bring back memories of past football folklore. This Quiz will have 8 multiple choice question with a 75 second timer and leaderboard so you can compete with friends and family about your score.
 
 ![Responsive](assets/images/responsive.png "Responsive")
 
