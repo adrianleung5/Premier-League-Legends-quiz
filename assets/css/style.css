@@ -41,7 +41,7 @@ html {
     font-size: 2rem;
 }
 
-.homepage_paragraph. 
+.homepage_paragraph, 
 .not_found_paragraph {
     display: flex;
     justify-content: center;
