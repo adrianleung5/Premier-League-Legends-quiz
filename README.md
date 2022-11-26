@@ -164,7 +164,7 @@ The use of these fonts togetheir was inspired by [Elementor.com](https://element
 ![quiz HTML valudator](assets/images/quiz.png " quiz HTML validator")
 
 ![404 HTML](assets/images/index.png "404 HTML")
-    
+
 - No errors were shown when putting the code through the jigsaw css validator.
 ![CSS validator](assets/images/css.png "CSS validator")
 
@@ -172,6 +172,27 @@ The use of these fonts togetheir was inspired by [Elementor.com](https://element
 ![script.js](assets/images/script.png "script.js")
 ![quiz.js](assets/images/quizjs.png "quiz.js")
 ![result.js](assets/images/resultjs.png "result.js")
+
+# Deployment
+The site was deployed to Github pages
+- Navitgate to the settings tab of the Github repository via [Github repository](https://github.com/adrianleung5/Leung-Wellness).
+- Select pages tab on the left side of the page under code and automation.
+- Under source, select "deploy from a branch" and then click ‘save’.
+- Page will refresh, Return to the repository page and you will a "github-pages active" icon under enviornment on the right side of the page.
+![How to deploy](assets/images/deployment.png "How to deploy")
+
+# To Fork the Repository
+- Go into Github and select the fork icon on the top right.
+![How to create Fork](assets/images/fork.png "How to create Fork")
+
+# Create a local clone
+- Log into Github and go to the repository.Click on the ‘code’ tab beside the gitpod button.
+- Select the clipboard icon
+- In your IED open GitBash
+- Change the current working directory to the location you want the cloned directory to be made.
+- Type ‘git clone’ and then paste the URL copied from GitHub.
+- press enter and the local clone will be created.
+![How to create local clone](assets/images/clone.png "How to create local clone")
 
 
 
