@@ -22,7 +22,7 @@ const optionC = document.getElementById("optionC");
 const optionD = document.getElementById("optionD");
 
 /**
- * This quiz contains a total of 14 questions
+ * This quiz contains a total of 16 questions
  * which will be randomised to show 8 questions
  */
 
@@ -149,6 +149,24 @@ const allQuizQuestions = [
         optionC: "C - Jadon Sancho",
         optionD: "D - Kyle Walker",
         correctAnswer: "B"
+    }
+
+    {
+        question: "Who has the best goals ratio in Premier League history?", 
+        optionA: "A - Wayne Rooney", 
+        optionB: "B - Harry Kane",
+        optionC: "C - Andy Cole",
+        optionD: "D - Alan Shearer",
+        correctAnswer: "D"
+    }
+
+    {
+        question: "Who manager has the most Premier League wins?", 
+        optionA: "A - David Moyes", 
+        optionB: "B - Harry Redknapp",
+        optionC: "C - Sam Allardyce",
+        optionD: "D - Jose Mourinho",
+        correctAnswer: "A"
     }
 
 ];
