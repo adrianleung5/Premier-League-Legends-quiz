@@ -122,7 +122,7 @@ const allQuizQuestions = [
         optionC: "C - Frank Lampard",
         optionD: "D - Gareth Barry",
         correctAnswer: "D"
-    }
+    },
 
     {
         question: "Who has had the highest Premier League transfer value?", 
@@ -131,7 +131,7 @@ const allQuizQuestions = [
         optionC: "C - Harry Maguire",
         optionD: "D - Eden Hazard",
         correctAnswer: "A"
-    }
+    },
 
     {
         question: "How much did Cristiano Ronaldo join Real Madrid for?", 
@@ -140,7 +140,7 @@ const allQuizQuestions = [
         optionC: "C - £80mill",
         optionD: "D - £90mill",
         correctAnswer: "C"
-    }
+    },
 
     {
         question: "Who is the most expensive english player in the Premier League?", 
@@ -149,7 +149,7 @@ const allQuizQuestions = [
         optionC: "C - Jadon Sancho",
         optionD: "D - Kyle Walker",
         correctAnswer: "B"
-    }
+    },
 
     {
         question: "Who has the best goals ratio in Premier League history?", 
@@ -158,7 +158,7 @@ const allQuizQuestions = [
         optionC: "C - Andy Cole",
         optionD: "D - Alan Shearer",
         correctAnswer: "D"
-    }
+    },
 
     {
         question: "Who manager has the most Premier League wins?", 
