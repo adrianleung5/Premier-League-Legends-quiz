@@ -1,6 +1,6 @@
 # Portfolio Project 2 - Premier League Quiz
 
-The Premier League Quiz is a sports quiz site that aimed at football fans to test their knowledge and bring back memories of past football folklore. This Quiz will have 8 multiple choice question with a 75 second timer and leaderboard so you can compete with friends and family about your score.
+The Premier League Quiz is a sports quiz site that aimed at football fans to test their knowledge and bring back memories of past football folklore. This Quiz will have 8 multiple choice question with a 75 second timer.
 
 ![Responsive](assets/images/responsive.png "Responsive")
 
@@ -76,46 +76,46 @@ The use of these fonts togetheir was inspired by [Elementor.com](https://element
 ![instructions](assets/images/instructions.png "instructions")
 
 ### Sign up and footer
- - At the bottom of the landing page there is a sign up form. This enablses users to enter their information to subscripe for future quiz updates as well as the opporunity to provide some feedback on the quiz. There is also a footer that provides social media links to the quiz.
+- At the bottom of the landing page there is a sign up form. This enablses users to enter their information to subscripe for future quiz updates as well as the opporunity to provide some feedback on the quiz. There is also a footer that provides social media links to the quiz.
 
- ![Bottom of homepage](assets/images/landing3.png "Bottom of Homepage")
- 
+![Bottom of homepage](assets/images/landing3.png "Bottom of Homepage")
+
 #### Name input
 
 - On game start the users are shown an input box with the label "Enter your username"
 - Users are unable to proceed without entering a username
 
- ![Bottom of homepage](assets/images/login.png "Bottom of Homepage")
+![Bottom of homepage](assets/images/login.png "Bottom of Homepage")
 
- ### Main Quiz Section
-  ![main quiz section](assets/images//question.png "main quiz section")
-  The main quiz section  includes the username name along with a greeting , a timer, the question, 4 answer buttons and a next button
+### Main Quiz Section
+![main quiz section](assets/images//question.png "main quiz section")
+The main quiz section  includes the username name along with a greeting , a timer, the question, 4 answer buttons and a next button
 
-   - Question
-    
-      The question is displayed at the top of the section above to question to ensure it is clearly visible to users.
-       ![Question](assets/images/game.png "Question")
+- Question
 
-  - Timer
-  
-  - The question is displayed at the top of the section above the question and will turn red when there is less than 15 seconds remaining. 
-    This will warn users time is running out.
-      ![Timer](assets/images/timer.png "Timer")
+  The question is displayed at the top of the section above to question to ensure it is clearly visible to users.
+    ![Question](assets/images/game.png "Question")
 
-  - When the timer is done a pop up modal will display redirect user back to the homepage to enable them to play again
+- Timer
 
-      ![Timeout](assets/images/timeout.png "Timeout")
+- The question is displayed at the top of the section above the question and will turn red when there is less than 15 seconds remaining. 
+This will warn users time is running out.
+  ![Timer](assets/images/timer.png "Timer")
+
+- When the timer is done a pop up modal will display redirect user back to the homepage to enable them to play again
+
+  ![Timeout](assets/images/timeout.png "Timeout")
 
 - Answer buttons
 
-  - The answer buttons are displayed in in 2 rows with 2 buttons per row. 
+- The answer buttons are displayed in in 2 rows with 2 buttons per row. 
 
-  ![answers](assets/images/answers.png "answers")
+![answers](assets/images/answers.png "answers")
 
-  - For smaller mobile phone devices the questions are displayed in a column of 4.
-  - The answer buttons change color to red or green to demonstrate to the user if their correc was right or wrong. 
+- For smaller mobile phone devices the questions are displayed in a column of 4.
+- The answer buttons change color to red or green to demonstrate to the user if their correc was right or wrong. 
 
-    ![incorrect](assets/images/incorrect.png "incorrect")
+![incorrect](assets/images/incorrect.png "incorrect")
 
 - Next Button 
 
@@ -125,41 +125,41 @@ The use of these fonts togetheir was inspired by [Elementor.com](https://element
 
 - Progress bar 
 
-  - The progess fills as the user progresses through the quiz. This enables the user to know how much of the quiz is left
+- The progess fills as the user progresses through the quiz. This enables the user to know how much of the quiz is left
 
 ![bar](assets/images/incorrect.png "bar")
 
 - Social media links
 
-  - The social media links enable the user to vist the quizs social media pages to find out more information.
+- The social media links enable the user to vist the quizs social media pages to find out more information.
 
 ![media](assets/images/media.png "media")
 
- ### Results page 
-  - The results shows users their score from the quiz.
-  - Users are awarded a trophy depending on their score.
-  - The users can see their score as a percentage and receive a personalised messege depending on their score.
-  - When the user achieves a score above 75% they are awarded a gold trophy icon.
+### Results page 
+- The results shows users their score from the quiz.
+- Users are awarded a trophy depending on their score.
+- The users can see their score as a percentage and receive a personalised messege depending on their score.
+- When the user achieves a score above 75% they are awarded a gold trophy icon.
 
- ![75% and more](assets/images/gold.png "75% and more")
+![75% and more](assets/images/gold.png "75% and more")
 
-  - When the user achieves a score above 50%  but less than 75 %they are awarded a silver trophy icon.
+- When the user achieves a score above 50%  but less than 75 %they are awarded a silver trophy icon.
 
- ![50 to 75%](assets/images/silver.png "50% to 75%")
- 
-  - When the user achieves a score above 50% they are awarded a bronze trophy icon.
- 
-  - The user is then redirected back to the homepage.
+![50 to 75%](assets/images/silver.png "50% to 75%")
 
-  ![less than 50%](assets/images/grey.png "less than 50%")
+- When the user achieves a score above 50% they are awarded a bronze trophy icon.
 
-  ### 404 page
+- The user is then redirected back to the homepage.
+
+![less than 50%](assets/images/grey.png "less than 50%")
+
+### 404 page
 
 The site has a custom 404 page that tells the user that something went wrong and also includes a home button to take the user back to the main quiz menu.
 
 ![404 Page](assets/images/404.png "404 page")
 
-   ## Technolohgies used
+## Technolohgies used
 - [HTML5](https://html.spec.whatwg.org/)
 - [CSS](https://www.w3.org/Style/CSS/Overview.en.html)
 - [Gitpod](https://www.gitpod.io/)
@@ -173,7 +173,7 @@ The site has a custom 404 page that tells the user that something went wrong and
 - [Jshint](https://jshint.com/)
 - [freepngimg](https://freepngimg.com/png/32207-premier-league-file/icon)
 - Balsamiq](https://balsamiq.com/)
- 
+
 ## Testing 
 
 ### Functional testing
@@ -227,19 +227,19 @@ No errors were shown when putting the code through jshint javascript validator.
 ![result.js](assets/images/resultjs.png "result.js")
 
 Colour contrast tests were carried out across the website and all came back without issue as shown by Ally Color Contrast Accessiblty 
- ![color checker](assets/images/a11y.png "color checker")
+![color checker](assets/images/a11y.png "color checker")
 
 ### Accessibility
 
 - The site received high scores on both mobile and desktop when put through lighthouse testing.
 
-  Lighthouse desktop
+Lighthouse desktop
 
-  ![desktop](assets/images/desktop.png "desktop")
+![desktop](assets/images/desktop.png "desktop")
 
-  Lighthouse mobile
-  
-  ![mobile](assets/images/mobile.png "mobile")
+Lighthouse mobile
+
+![mobile](assets/images/mobile.png "mobile")
 
 ## Version control
 
@@ -293,7 +293,7 @@ The site was deployed to Github pages
 - [W3schools](https://www.w3schools.com/) was used to , research various javscript, html and CSS syntax
 - [Codepen](https://codepen.io/kanishkkunal/pen/obGojO) was used to to research CSS syntax
 - [Geeksforgeeks](https://www.geeksforgeeks.org/scroll-to-the-top-of-the-page-using-javascript-jquery/#:~:text=scrollTo()%3A,the%20topmost%20and%20leftmost%20point.)
-  was used to enable users to scroll userto the top of page in javascript.
+was used to enable users to scroll userto the top of page in javascript.
 - [developer.mozilla](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Flexible_Box_Layout/Aligning_Items_in_a_Flex_Container) was used to help undrstand flex box
 
 
