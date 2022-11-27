@@ -22,7 +22,7 @@ const optionC = document.getElementById("optionC");
 const optionD = document.getElementById("optionD");
 
 /**
- * This quiz contains a total of 11 questions
+ * This quiz contains a total of 14 questions
  * which will be randomised to show 8 questions
  */
 
@@ -116,12 +116,39 @@ const allQuizQuestions = [
     },
 
     {
-        question: "11. What player the highest amount of premier league appearances?", 
+        question: "What player the highest amount of premier league appearances?", 
         optionA: "A - Ryan Giggs", 
         optionB: "B - James Milner",
         optionC: "C - Frank Lampard",
         optionD: "D - Gareth Barry",
         correctAnswer: "D"
+    }
+
+    {
+        question: "Who has had the highest Premier League transfer value?", 
+        optionA: "A - Philippe Countinho", 
+        optionB: "B - Ousmane Dembele",
+        optionC: "C - Harry Maguire",
+        optionD: "D - Eden Hazard",
+        correctAnswer: "A"
+    }
+
+    {
+        question: "How much did Cristiano Ronaldo join Real Madrid for?", 
+        optionA: "A - £100mill", 
+        optionB: "B - £70mill",
+        optionC: "C - £80mill",
+        optionD: "D - £90mill",
+        correctAnswer: "C"
+    }
+
+    {
+        question: "Who is the most expensive english player in the Premier League?", 
+        optionA: "A - Harry Maguire", 
+        optionB: "B - Jack Grealish",
+        optionC: "C - Jadon Sancho",
+        optionD: "D - Kyle Walker",
+        correctAnswer: "B"
     }
 
 ];
