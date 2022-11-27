@@ -27,7 +27,7 @@ Sports fans, football fans
 ## Returning User Goals
 - As a returning visitor, I would like to see new and more questions.
 - As a returning visitor, I would like to be able to leave feedback and suggestions for future questions for the quiz.
-- As a returning visitor, I would like to get in touch with the site developer
+- As a returning visitor, I would like to get in touch with the site developer,
 
 ## Frequent User Goals
 - As a frequent user, I would like to see my best scores.
@@ -35,7 +35,7 @@ Sports fans, football fans
 - As a frequent user, I would like to sign up to be notified to any changes and updates to the quiz.
 
 ### Initial Concept
-- To gain ideas for the general design of the quiz i gathered inspiration from fellow students in code insitutes project that was obtained from the peer review channel on slack. An example of a site i took inspiration from would be [Sean Johnstons quiz](https://github.com/seanf316/P2-Movie-Buff-Or-Bluff)
+- To gain ideas for the general design of the quiz i gathered inspiration from fellow students in code insitutes project that was obtained from the peer review channel on slack. An example of a site i took inspiration from would be [Sean Johnstons quiz](https://github.com/seanf316/P2-Movie-Buff-Or-Bluff).
 
 ### Wireframes
 - The Wireframes were produced using [Balsamiq](https://balsamiq.com/). 
@@ -58,8 +58,8 @@ Sports fans, football fans
 ![coolor.co](assets/images/coolorsco.png "coolor.co")
 
 ### Typography
-- Google fonts was used to import the fonts used for the purpose of this quiz [google fonts](https://fonts.google.com/).- 
-The use of these fonts togetheir was inspired by [Elementor.com](https://elementor.com/blog/font-pairing/#). This font provided a sharp and professional look for the quiz.
+- Google fonts was used to import the fonts used for the purpose of this quiz [google fonts](https://fonts.google.com/).
+- The use of these fonts togetheir was inspired by [Elementor.com](https://elementor.com/blog/font-pairing/#). This font provided a sharp and professional look for the quiz.
 
 ## Features
 ### Homepage  
@@ -82,14 +82,14 @@ The use of these fonts togetheir was inspired by [Elementor.com](https://element
 
 #### Name input
 
-- On game start the users are shown an input box with the label "Enter your username"
-- Users are unable to proceed without entering a username
+- On game start the users are shown an input box with the label "Enter your username".
+- Users are unable to proceed without entering a username.
 
 ![Bottom of homepage](assets/images/login.png "Bottom of Homepage")
 
 ### Main Quiz Section
 ![main quiz section](assets/images//question.png "main quiz section")
-The main quiz section  includes the username name along with a greeting , a timer, the question, 4 answer buttons and a next button
+The main quiz section  includes the username name along with a greeting , a timer, the question, 4 answer buttons and a next button.
 
 - Question
 
@@ -102,7 +102,7 @@ The main quiz section  includes the username name along with a greeting , a time
 This will warn users time is running out.
   ![Timer](assets/images/timer.png "Timer")
 
-- When the timer is done a pop up modal will display redirect user back to the homepage to enable them to play again
+- When the timer is done a pop up modal will display redirect user back to the homepage to enable them to play again.c
 
   ![Timeout](assets/images/timeout.png "Timeout")
 
