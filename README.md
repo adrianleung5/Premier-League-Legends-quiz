@@ -1,4 +1,4 @@
-# Portfolio Project 2 - Javascript
+# Portfolio Project 2 - Premier League Quiz
 
 The Premier League Quiz is a sports quiz site that aimed at football fans to test their knowledge and bring back memories of past football folklore. This Quiz will have 8 multiple choice question with a 75 second timer and leaderboard so you can compete with friends and family about your score.
 
@@ -38,19 +38,27 @@ Sports fans, football fans
 To gain ideas for the general design of the quiz i gathered inspiration from fellow students in code insitutes project that was obtained from the peer review channel on slack. An example of a site i took inspiration from would be [Sean Johnstons quiz](https://github.com/seanf316/P2-Movie-Buff-Or-Bluff)
 
 ### Wireframes
-The Wireframes were produced using [Balsamiq](https://balsamiq.com/). 
-The final site varies from the wireframes due to developments that occurred during the building process. 
+- The Wireframes were produced using [Balsamiq](https://balsamiq.com/). 
+- The final site varies from the wireframes due to developments that occurred during the building process. 
+
+### Phone
+
+- ![mobile wireframe](assets/images/wireframe2.png "mobile wireframe")
+
+### Desktop
+
+- ![desktop wireframe](assets/images/wireframe1.png "Desktop wireframe")
 
 ### Features Left to Implement
-As a future enhancement, I would like to add a scoreboard tracker into the quiz.
+- As a future enhancement, I would like to add a scoreboard tracker into the quiz.
 
 ### Colour Scheme
-The color scheme used on this website was based on the hero image. [Coolors.co](https://coolors.co/) was used to identify the colours associated with the hero imahge. This identified a selction of 5 colours. The quiz is predominantly based on only of these colours Russian Violet. The color white was chosen to provide a nice contrast to the site and was used as the main colour for the text of the site. Ultraviolet was as the box shadow effect around the buttons of the site.
+- The color scheme used on this website was based on the hero image. [Coolors.co](https://coolors.co/) was used to identify the colours associated with the hero imahge. This identified a selction of 5 colours. The quiz is predominantly based on only of these colours Russian Violet. The color white was chosen to provide a nice contrast to the site and was used as the main colour for the text of the site. Ultraviolet was as the box shadow effect around the buttons of the site.
 
 ![coolor.co](assets/images/coolorsco.png "coolor.co")
 
 ### Typography
-Google fonts was used to import the fonts used for the purpose of this quiz [google fonts](https://fonts.google.com/).
+- Google fonts was used to import the fonts used for the purpose of this quiz [google fonts](https://fonts.google.com/).- 
 The use of these fonts togetheir was inspired by [Elementor.com](https://elementor.com/blog/font-pairing/#). This font provided a sharp and professional look for the quiz.
 
 ## Features
@@ -71,7 +79,6 @@ The use of these fonts togetheir was inspired by [Elementor.com](https://element
  - At the bottom of the landing page there is a sign up form. This enablses users to enter their information to subscripe for future quiz updates as well as the opporunity to provide some feedback on the quiz. There is also a footer that provides social media links to the quiz.
 
  ![Bottom of homepage](assets/images/landing3.png "Bottom of Homepage")
- 
  
 #### Name input
 
