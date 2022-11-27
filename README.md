@@ -26,7 +26,7 @@ Sports fans, football fans
 
 ## Returning User Goals
 - As a returning visitor, I would like to see new and more questions.
-- As a returning visitorr, I would like to be able to leave feedback and suggestions for future questions for the quiz.
+- As a returning visitor, I would like to be able to leave feedback and suggestions for future questions for the quiz.
 - As a returning visitor, I would like to get in touch with the site developer
 
 ## Frequent User Goals
@@ -35,7 +35,7 @@ Sports fans, football fans
 - As a frequent user, I would like to sign up to be notified to any changes and updates to the quiz.
 
 ### Initial Concept
-To gain ideas for the general design of the quiz i gathered inspiration from fellow students in code insitutes project that was obtained from the peer review channel on slack. An example of a site i took inspiration from would be [Sean Johnstons quiz](https://github.com/seanf316/P2-Movie-Buff-Or-Bluff)
+- To gain ideas for the general design of the quiz i gathered inspiration from fellow students in code insitutes project that was obtained from the peer review channel on slack. An example of a site i took inspiration from would be [Sean Johnstons quiz](https://github.com/seanf316/P2-Movie-Buff-Or-Bluff)
 
 ### Wireframes
 - The Wireframes were produced using [Balsamiq](https://balsamiq.com/). 
